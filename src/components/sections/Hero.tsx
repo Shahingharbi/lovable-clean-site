@@ -71,13 +71,6 @@ export function Hero() {
             </a>
           </div>
 
-          <p className="mt-6 inline-block max-w-xl rounded-2xl bg-red-500/20 px-4 py-3 text-sm font-medium leading-relaxed text-cream ring-1 ring-red-300/50">
-            <span aria-hidden>⚠️ </span>
-            <strong>Aucun recrutement en cours.</strong>{" "}
-            Merci de ne pas téléphoner ni envoyer d&apos;e-mail pour une
-            candidature, les demandes spontanées ne sont pas traitées.
-          </p>
-
           <ul className="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-sm font-medium text-cream/90">
             <li className="inline-flex items-center gap-2">
               <span className="h-1.5 w-1.5 rounded-full bg-orange" />
