@@ -57,6 +57,7 @@ export function Hero() {
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <Link
               href="/contact"
+              data-track="devis"
               className="inline-flex items-center rounded-full bg-orange px-7 py-4 font-display text-sm font-bold uppercase tracking-wider text-cream shadow-[0_18px_40px_-12px_rgba(37,99,235,0.55)] transition-colors hover:bg-orange-dark"
             >
               Demander un devis

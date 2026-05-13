@@ -9,6 +9,7 @@ import {
   CheckIcon,
   ClockIcon,
 } from "@/components/icons";
+import { trackFormSubmit } from "@/lib/analytics";
 
 const SUBJECTS = [
   "Nettoyage de vitres",
@@ -56,6 +57,7 @@ export function ContactCTA() {
       );
       if (result.status === 200) {
         setStatus("success");
+        trackFormSubmit("contact_cta");
         form.reset();
       } else {
         throw new Error(`EmailJS status ${result.status}`);

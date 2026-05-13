@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
 import { FAQ_ITEMS } from "@/data/faq";
+import { AnalyticsListener } from "@/components/AnalyticsListener";
 
 const dmSans = DM_Sans({
   variable: "--font-sans",
@@ -274,8 +275,9 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Script id="google-gtag" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'AW-17969657087');gtag('config', 'GT-T5JCZCZP');`}
+          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}window.gtag = gtag;gtag('js', new Date());gtag('config', 'AW-17969657087');gtag('config', 'GT-T5JCZCZP');`}
         </Script>
+        <AnalyticsListener />
         {children}
       </body>
     </html>

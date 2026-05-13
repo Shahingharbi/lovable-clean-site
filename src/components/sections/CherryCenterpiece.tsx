@@ -28,6 +28,7 @@ export function CherryCenterpiece() {
             </p>
             <Link
               href="#contact"
+              data-track="devis"
               className="mt-10 inline-flex items-center rounded-full bg-orange px-8 py-4 font-display text-sm font-bold uppercase tracking-wider text-cream transition-colors hover:bg-orange-dark"
             >
               Mon devis en 2 minutes

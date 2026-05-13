@@ -22,6 +22,7 @@ export function BigCTA() {
           <div className="relative mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link
               href="#contact"
+              data-track="devis"
               className="inline-flex items-center rounded-full border-2 border-cream px-8 py-4 font-display text-sm font-bold uppercase tracking-wider text-cream transition-colors hover:bg-cream hover:text-orange"
             >
               Demander un devis

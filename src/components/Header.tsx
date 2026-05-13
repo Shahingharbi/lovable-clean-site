@@ -79,6 +79,7 @@ export function Header() {
               </a>
               <Link
                 href="/contact"
+                data-track="devis"
                 className="hidden rounded-full bg-orange px-5 py-3 font-display text-[13px] font-bold uppercase tracking-tight text-cream transition-colors hover:bg-orange-dark md:inline-flex"
               >
                 Devis gratuit
@@ -161,6 +162,7 @@ export function Header() {
             </a>
             <Link
               href="/contact"
+              data-track="devis"
               onClick={() => setOpen(false)}
               className="flex w-full items-center justify-center rounded-full bg-orange px-6 py-4 font-display text-sm font-bold uppercase tracking-wider text-cream transition-colors hover:bg-orange-dark"
             >

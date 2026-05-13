@@ -105,6 +105,7 @@ export default async function BlogPost({
             </p>
             <Link
               href="/contact"
+              data-track="devis"
               className="mt-6 inline-flex items-center rounded-full bg-orange px-6 py-3 font-display text-sm font-bold uppercase tracking-wider text-cream transition-colors hover:bg-orange-dark"
             >
               Demander un devis
