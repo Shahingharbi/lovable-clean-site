@@ -110,6 +110,19 @@ export function Footer() {
             </li>
           </ul>
         </div>
+
+        <p className="mt-4 text-xs text-cream/55">
+          Site conçu par Shahin Gharbi —{" "}
+          <a
+            href="https://shahingharbi.com/creation-site-internet-thonon"
+            target="_blank"
+            rel="noopener"
+            className="underline decoration-cream/30 underline-offset-2 transition-colors hover:text-orange hover:decoration-orange"
+          >
+            création de site internet à Thonon-les-Bains
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );
