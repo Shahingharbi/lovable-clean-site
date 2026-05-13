@@ -159,11 +159,11 @@ export function ContactCTA() {
               </p>
             </div>
 
-            <div className="rounded-2xl border border-brown/15 bg-cream-soft px-5 py-4 text-xs leading-relaxed text-brown/75">
+            <div className="rounded-2xl border border-red-300 bg-red-50 px-5 py-4 text-sm font-medium leading-relaxed text-red-900">
               <span aria-hidden>⚠️ </span>
-              <strong>Aucun recrutement en cours.</strong> Merci de ne pas
-              téléphoner ni envoyer d&apos;e-mail pour une candidature, les
-              demandes spontanées ne sont pas traitées.
+              <strong>Aucun recrutement en cours.</strong>{" "}
+              Merci de ne pas téléphoner ni envoyer d&apos;e-mail pour une
+              candidature, les demandes spontanées ne sont pas traitées.
             </div>
           </aside>
 
