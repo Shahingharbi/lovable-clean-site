@@ -72,6 +72,12 @@ export default function ContactPage() {
                   06 84 66 55 23
                 </a>
               </div>
+              <p className="mt-6 inline-block max-w-xl rounded-2xl bg-cream/10 px-4 py-2.5 text-xs leading-relaxed text-cream/80 ring-1 ring-cream/15">
+                <span aria-hidden>⚠️ </span>
+                <strong>Aucun recrutement en cours.</strong> Merci de ne pas
+                téléphoner ni envoyer d&apos;e-mail pour une candidature, les
+                demandes spontanées ne sont pas traitées.
+              </p>
             </div>
           </div>
 

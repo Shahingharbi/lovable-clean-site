@@ -158,6 +158,13 @@ export function ContactCTA() {
                 critiques. N&apos;hésitez pas à appeler, nous décrochons.
               </p>
             </div>
+
+            <div className="rounded-2xl border border-brown/15 bg-cream-soft px-5 py-4 text-xs leading-relaxed text-brown/75">
+              <span aria-hidden>⚠️ </span>
+              <strong>Aucun recrutement en cours.</strong> Merci de ne pas
+              téléphoner ni envoyer d&apos;e-mail pour une candidature, les
+              demandes spontanées ne sont pas traitées.
+            </div>
           </aside>
 
           <form
