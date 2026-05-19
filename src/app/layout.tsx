@@ -88,6 +88,10 @@ export const metadata: Metadata = {
   publisher: "GH Services",
   alternates: {
     canonical: SITE_URL,
+    languages: {
+      "fr-FR": SITE_URL,
+      "x-default": SITE_URL,
+    },
   },
   openGraph: {
     title: "Entreprise de nettoyage à Thonon-les-Bains | GH Services",

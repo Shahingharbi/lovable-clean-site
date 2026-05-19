@@ -34,7 +34,7 @@ const SERVICES: ServiceCard[] = [
     icon: WindowIcon,
     image: "/photos/service-vitres.jpg",
     imageAlt: "Nettoyage professionnel de vitre",
-    href: "/contact",
+    href: "/nettoyage-vitres-thonon",
   },
   {
     title: "Fin de chantier",
@@ -43,7 +43,7 @@ const SERVICES: ServiceCard[] = [
     icon: HouseRefreshIcon,
     image: "/photos/service-etat-lieux.jpg",
     imageAlt: "Remise en état après travaux",
-    href: "/contact",
+    href: "/fin-de-chantier-thonon",
   },
   {
     title: "Copropriétés",
@@ -52,7 +52,7 @@ const SERVICES: ServiceCard[] = [
     icon: BuildingIcon,
     image: "/photos/service-coproprietes.jpg",
     imageAlt: "Nettoyage de hall d'immeuble",
-    href: "/contact",
+    href: "/nettoyage-coproprietes-thonon",
   },
   {
     title: "Textiles, tapis, canapés",
@@ -61,7 +61,7 @@ const SERVICES: ServiceCard[] = [
     icon: SofaIcon,
     image: "/photos/service-textile.jpg",
     imageAlt: "Nettoyage de canapé en textile",
-    href: "/contact",
+    href: "/nettoyage-textiles-thonon",
   },
   {
     title: "Anti humidité, moisissures",
@@ -70,7 +70,7 @@ const SERVICES: ServiceCard[] = [
     icon: MoldIcon,
     image: "/photos/service-humidite.jpg",
     imageAlt: "Traitement anti humidité et moisissures",
-    href: "/contact",
+    href: "/traitement-humidite-thonon",
   },
   {
     title: "Débarras éco-responsable",
@@ -79,7 +79,7 @@ const SERVICES: ServiceCard[] = [
     icon: SprayIcon,
     image: "/photos/service-debarras.jpg",
     imageAlt: "Espace vidé après débarras",
-    href: "/contact",
+    href: "/debarras-thonon",
   },
   {
     title: "Espaces verts",
@@ -88,7 +88,7 @@ const SERVICES: ServiceCard[] = [
     icon: LeafIcon,
     image: "/photos/service-espaces-verts.jpg",
     imageAlt: "Espace vert entretenu",
-    href: "/contact",
+    href: "/entretien-espaces-verts-thonon",
   },
   {
     title: "Petite maçonnerie",
@@ -97,7 +97,7 @@ const SERVICES: ServiceCard[] = [
     icon: BrickIcon,
     image: "/photos/service-maconnerie.jpg",
     imageAlt: "Travaux de petite maçonnerie",
-    href: "/contact",
+    href: "/petite-maconnerie-thonon",
   },
   {
     title: "Déménagement",
@@ -106,7 +106,7 @@ const SERVICES: ServiceCard[] = [
     icon: TruckIcon,
     image: "/photos/service-demenagement.jpg",
     imageAlt: "Cartons de déménagement prêts à être chargés",
-    href: "/contact",
+    href: "/demenagement-thonon",
   },
 ];
 
@@ -173,7 +173,7 @@ export function SectorsGrid() {
                   </h3>
                   <p className="mt-3 text-sm leading-6 text-brown/75">{description}</p>
                   <span className="mt-5 inline-flex items-center gap-2 font-display text-sm font-bold text-brown transition-colors group-hover:text-orange">
-                    Demander un devis
+                    Voir la page service
                     <ArrowRightIcon className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                   </span>
                 </div>

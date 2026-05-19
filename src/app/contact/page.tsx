@@ -30,7 +30,7 @@ export default function ContactPage() {
           <div className="absolute inset-0 -z-10">
             <Image
               src="/photos/showcase-team.jpg"
-              alt=""
+              alt="Équipe GH Services en intervention de nettoyage à Thonon-les-Bains"
               fill
               priority
               sizes="100vw"

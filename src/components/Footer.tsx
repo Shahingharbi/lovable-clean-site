@@ -1,30 +1,31 @@
 import Link from "next/link";
 import { GHLogo, PhoneIcon, MailIcon, PinIcon } from "@/components/icons";
 
-const SERVICES_COL = [
-  "Nettoyage de vitres",
-  "Fin de chantier",
-  "Copropriétés et halls",
-  "Nettoyage de textiles",
-  "Anti humidité et moisissures",
-  "Débarras éco-responsable",
-  "Espaces verts",
-  "Petite maçonnerie",
+const SERVICES_COL: { label: string; href: string }[] = [
+  { label: "Nettoyage de vitres", href: "/nettoyage-vitres-thonon" },
+  { label: "Fin de chantier", href: "/fin-de-chantier-thonon" },
+  { label: "Copropriétés et halls", href: "/nettoyage-coproprietes-thonon" },
+  { label: "Nettoyage de textiles", href: "/nettoyage-textiles-thonon" },
+  { label: "Anti humidité et moisissures", href: "/traitement-humidite-thonon" },
+  { label: "Débarras éco-responsable", href: "/debarras-thonon" },
+  { label: "Espaces verts", href: "/entretien-espaces-verts-thonon" },
+  { label: "Petite maçonnerie", href: "/petite-maconnerie-thonon" },
+  { label: "Déménagement", href: "/demenagement-thonon" },
+  { label: "Société de ménage", href: "/menage-thonon-les-bains" },
+  { label: "Chalets et résidences", href: "/nettoyage-chalets-leman" },
+  { label: "État des lieux sortant", href: "/etat-des-lieux-sortant-thonon" },
 ];
 
-const ZONES_COL = [
-  "Thonon-les-Bains",
-  "Évian-les-Bains",
-  "Annemasse",
-  "Douvaine",
-  "Sciez",
-  "Publier",
-  "Bons-en-Chablais",
-  "Anthy-sur-Léman",
-  "Yvoire",
-  "Margencel",
-  "Allinges",
-  "Saint-Gingolph",
+const ZONES_COL: { label: string; href: string }[] = [
+  { label: "Thonon-les-Bains", href: "/" },
+  { label: "Évian-les-Bains", href: "/nettoyage-evian-les-bains" },
+  { label: "Annemasse", href: "/nettoyage-annemasse" },
+  { label: "Douvaine", href: "/nettoyage-douvaine" },
+  { label: "Sciez", href: "/nettoyage-sciez" },
+  { label: "Publier", href: "/nettoyage-publier" },
+  { label: "Bons-en-Chablais", href: "/nettoyage-bons-en-chablais" },
+  { label: "Anthy-sur-Léman", href: "/nettoyage-anthy-sur-leman" },
+  { label: "Yvoire", href: "/nettoyage-yvoire" },
 ];
 
 const COMPANY_COL = [
@@ -85,8 +86,8 @@ export function Footer() {
             </ul>
           </div>
 
-          <FooterColumn label="Services" items={SERVICES_COL.map((s) => ({ label: s, href: "#services" }))} />
-          <FooterColumn label="Zones d'intervention" items={ZONES_COL.map((s) => ({ label: s, href: "#zones" }))} />
+          <FooterColumn label="Services" items={SERVICES_COL} />
+          <FooterColumn label="Zones d'intervention" items={ZONES_COL} />
           <FooterColumn label="GH Services" items={COMPANY_COL} />
         </div>
 
@@ -112,7 +113,7 @@ export function Footer() {
         </div>
 
         <p className="mt-4 text-xs text-cream/55">
-          Site conçu par Shahin Gharbi —{" "}
+          Site conçu par Shahin Gharbi,{" "}
           <a
             href="https://shahingharbi.com/creation-site-internet-thonon"
             target="_blank"

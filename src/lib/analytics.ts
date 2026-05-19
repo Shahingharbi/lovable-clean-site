@@ -10,7 +10,7 @@
 //
 // Tant que les IDs sont en placeholder, le tracking dataLayer fonctionne déjà
 // (Microsoft Clarity + GTM si un jour tu en ajoutes un), seul l'envoi vers
-// Google Ads reste dormant — donc 0 risque de doubler les conversions.
+// Google Ads reste dormant, donc 0 risque de doubler les conversions.
 
 export const ADS_CONVERSION = {
   // Click sur un numéro tel:+33…
