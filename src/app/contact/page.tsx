@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     "Contactez GH Services à Thonon-les-Bains. Devis gratuit sous 24 h pour vos prestations de nettoyage : vitres, copropriétés, fin de chantier, textiles, déménagement. Téléphone 06 84 66 55 23, email contact@ghservices.fr.",
   alternates: { canonical: "https://www.ghservices.fr/contact" },
   openGraph: {
-    title: "Contact, demande de devis gratuit | GH Services",
+    title: "Contact, demande de devis gratuit",
     description:
       "Demandez votre devis gratuit à GH Services Thonon-les-Bains. Réponse sous 24 h ouvrées. Téléphone 06 84 66 55 23.",
     url: "https://www.ghservices.fr/contact",

@@ -16,26 +16,27 @@ const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
   title:
-    "Nettoyage de vitres à Thonon-les-Bains : eau osmosée, sans traces",
+    "Nettoyage de chalets et résidences secondaires Léman",
   description:
-    "Lavage de vitres pro à Thonon, Évian et Léman. Eau osmosée, perche carbone, sans traces. Particuliers, copropriétés, vérandas, commerces. Devis 24h.",
+    "Nettoyage de chalets et résidences secondaires sur le Léman. Ménage avant arrivée, fermeture saisonnière, turnover Airbnb. Yvoire, Évian, Thonon.",
   alternates: {
-    canonical: `${SITE_URL}/nettoyage-vitres-thonon`,
+    canonical: `${SITE_URL}/nettoyage-chalets-leman`,
   },
   openGraph: {
-    title: "Nettoyage de vitres à Thonon-les-Bains",
+    title:
+      "Nettoyage de chalets et résidences secondaires Léman",
     description:
-      "Lavage de vitres pro à Thonon, Évian et Léman. Eau osmosée, perche carbone, sans traces. Particuliers, copropriétés, vérandas, commerces.",
-    url: `${SITE_URL}/nettoyage-vitres-thonon`,
+      "Ménage de chalets et villas pied dans l'eau, turnover Airbnb, ouverture et fermeture saisonnière. Yvoire, Évian, Thonon, Excenevex, Sciez.",
+    url: `${SITE_URL}/nettoyage-chalets-leman`,
     type: "website",
     locale: "fr_FR",
     siteName: "GH Services",
     images: [
       {
-        url: "/photos/service-vitres.jpg",
+        url: "/photos/lac-leman.jpg",
         width: 1600,
         height: 900,
-        alt: "Laveurs de vitres professionnels à Thonon-les-Bains",
+        alt: "Chalet et résidence secondaire au bord du lac Léman",
       },
     ],
   },
@@ -43,89 +44,89 @@ export const metadata: Metadata = {
 
 const PERSONAS = [
   {
-    title: "Particuliers",
-    desc: "Vitres de maison, baies vitrées, fenêtres de toit Velux. Crédit d'impôt 50 % pour les services à domicile.",
+    title: "Propriétaires de résidence secondaire",
+    desc: "Maisons et appartements de vacances utilisés ponctuellement, à entretenir entre deux séjours sans avoir à être présent sur place.",
   },
   {
-    title: "Copropriétés et syndics",
-    desc: "Parties communes, halls vitrés, garde-corps verre, vitres d'immeubles à Thonon, Évian et Annemasse.",
+    title: "Propriétaires Airbnb et locations saisonnières",
+    desc: "Turnover entre deux locataires, ménage soigné en 24 h, gestion du linge et préparation visuelle de l'arrivée voyageur.",
   },
   {
-    title: "Vérandas et verrières",
-    desc: "Toits verriers, parois verticales, structures aluminium. Traitement spécifique des algues et dépôts verts du Chablais.",
+    title: "Agences locatives et gestionnaires",
+    desc: "Partenariat opérationnel pour les agences qui gèrent un parc de chalets ou villas Léman. Reporting photo systématique.",
   },
   {
-    title: "Résidences secondaires et chalets",
-    desc: "Entretien régulier ou avant arrivée, rives du Léman, Yvoire, Saint-Gingolph, secteur frontalier de Genève.",
+    title: "Expatriés et propriétaires hors région",
+    desc: "Genève, Lausanne, Paris, Dubaï : nous prenons le relais sur place. Vous êtes informé par message, photos à l'appui.",
   },
   {
-    title: "Commerces et vitrines",
-    desc: "Magasins, restaurants, agences. Formules d'abonnement à partir de 2,50 € HT par m² (passage hebdomadaire).",
+    title: "Propriétaires de chalet bois traditionnel",
+    desc: "Parquets huilés, lambris, poutres apparentes, cheminée pierre. Produits adaptés aux matériaux nobles, sans agresser les finitions.",
   },
   {
-    title: "Bureaux et locaux pros",
-    desc: "Façades vitrées, cloisons internes, baies bureau. Intervention en horaires décalés possible.",
+    title: "Syndics de petites copropriétés bord de lac",
+    desc: "Petits ensembles résidentiels en rive sud, parties communes et nettoyage régulier des biens loués par les copropriétaires.",
   },
 ];
 
 const ZONES = [
   "Thonon-les-Bains",
   "Évian-les-Bains",
-  "Annemasse",
-  "Douvaine",
-  "Sciez",
-  "Publier",
   "Anthy-sur-Léman",
-  "Bons-en-Chablais",
-  "Allinges",
-  "Margencel",
   "Yvoire",
   "Excenevex",
+  "Sciez",
+  "Publier",
   "Maxilly-sur-Léman",
-  "Saint-Paul-en-Chablais",
+  "Lugrin",
   "Saint-Gingolph",
+  "Margencel",
+  "Allinges",
+  "Saint-Paul-en-Chablais",
+  "Bons-en-Chablais",
+  "Douvaine",
 ];
 
 const FAQ = [
   {
-    q: "À quelle fréquence faut-il nettoyer ses vitres à Thonon ?",
-    a: "Sur le bassin lémanique, comptez 2 à 4 passages par an pour des vitres résidentielles, 1 passage par mois pour une vitrine commerciale, et un nettoyage hebdomadaire pour les bureaux exposés à la pollution routière. Les vitres exposées au lac (embruns) ou aux pollens d'avril à juin se salissent plus vite.",
+    q: "Vous intervenez quand je suis absent ?",
+    a: "Oui, c'est le cœur de notre prestation pour les résidences secondaires. Nous intervenons sur appel ou planning convenu, sans que vous ayez à être présent. Vous recevez un rapport photo après chaque passage. La majorité de nos clients chalets sont sur Genève, Lausanne ou Paris et viennent uniquement en weekend ou en saison.",
   },
   {
-    q: "Vous nettoyez les vitres en hauteur ?",
-    a: "Oui. Nous travaillons à la perche télescopique en fibre de carbone alimentée en eau osmosée jusqu'à 12 mètres, sans nacelle ni échafaudage. Au-delà, nous mobilisons une nacelle ou un cordiste selon la configuration. Tous nos intervenants sont formés au travail en hauteur et équipés EPI.",
+    q: "Comment gérez-vous les clés ?",
+    a: "Trois options possibles : remise en main propre lors d'une visite initiale, dépôt sécurisé dans un coffre à clés à votre domicile, ou récupération via votre gardien, voisin ou agence. Les clés sont identifiées par code (jamais par nom ou adresse) et conservées sous coffre verrouillé. Une procédure écrite est signée à la prise de mission.",
   },
   {
-    q: "Pourquoi utilisez-vous de l'eau osmosée ?",
-    a: "L'eau osmosée (eau pure, sans calcaire ni minéraux) sèche sans laisser la moindre trace. C'est la méthode pro qui remplace la raclette traditionnelle sur les surfaces difficiles d'accès. Sur le Léman, où l'eau du robinet est calcaire, c'est indispensable pour un résultat irréprochable.",
+    q: "Vous gérez aussi le linge de maison ?",
+    a: "Oui. Pour les locations saisonnières et Airbnb, nous proposons la rotation complète : draps, housses, taies, linge de toilette, torchons. Lavage à 60 °C, séchage et remise en place avant l'arrivée du voyageur suivant. Vous fournissez le stock ou nous travaillons avec une blanchisserie partenaire selon votre choix.",
   },
   {
-    q: "Le mauvais temps annule l'intervention ?",
-    a: "Non, contrairement à ce qu'on imagine, la pluie n'altère pas la qualité d'un lavage à l'eau osmosée. Seul le vent fort ou le gel suspendent l'intervention pour des raisons de sécurité. Vous êtes prévenu la veille et la prestation est reportée gratuitement.",
+    q: "Turnover Airbnb en 24 h, possible ?",
+    a: "Oui, et c'est même la norme sur la saison d'été du Léman. Sortie locataire le matin (11 h en général), ménage complet et préparation arrivée dans la même journée pour un check-in à 16 h. Nous travaillons avec checklist Airbnb (draps, kit accueil, vérification équipements, photos de contrôle). Prévenez-nous au plus tard la veille en haute saison.",
   },
   {
-    q: "Combien de temps tiennent les vitres propres après votre passage ?",
-    a: "En extérieur, comptez environ 4 à 8 semaines selon l'exposition. En intérieur, plusieurs mois sans entretien. Une vitrine commerciale en bordure de route restera nette environ 2 à 3 semaines, d'où nos formules d'abonnement.",
+    q: "Vous travaillez avec les agences locatives ?",
+    a: "Oui, nous avons plusieurs accords avec des agences immobilières et plateformes de gestion locative du Chablais. Facturation centralisée, planning groupé sur plusieurs biens, reporting standardisé. Contactez-nous pour étudier un partenariat sur votre parc.",
   },
   {
-    q: "Vos produits sont écologiques ?",
-    a: "Oui. Pour les vitres simples nous travaillons uniquement à l'eau osmosée, sans détergent. Quand un détergent est nécessaire (graisse cuisine, traces de pollution), nous utilisons des produits biodégradables, sans solvant. Aucun rejet polluant pour le bassin du Léman.",
+    q: "Et le parquet huilé fragile ?",
+    a: "Les chalets bois du Léman ont souvent un parquet huilé qui ne supporte ni la serpillière mouillée, ni les détergents alcalins. Nous utilisons un nettoyage à la microfibre légèrement humide et un savon noir doux ou un produit spécifique parquet huilé selon la finition. Idem pour les lambris muraux et poutres apparentes.",
   },
   {
-    q: "Quelle est la durée d'une intervention type ?",
-    a: "Pour un appartement T3 (environ 30 m² de surface vitrée intérieure + extérieure), comptez 1h30 à 2h. Une vitrine commerciale de 20 m² prend 45 minutes. Une véranda de 25 m² environ 2h. Nous communiquons une fenêtre horaire précise lors du devis.",
+    q: "Vous m'envoyez des photos après chaque passage ?",
+    a: "Oui, systématiquement. Vous recevez par messagerie ou e-mail un compte rendu court : photos avant/après des pièces principales, signalement de tout problème constaté (fuite, ampoule grillée, dégât locataire), confirmation des points de la checklist. C'est inclus dans la prestation.",
   },
   {
-    q: "Comment se passe le paiement ?",
-    a: "Devis gratuit sous 24h, validation par e-mail, intervention planifiée, facture après réalisation. Paiement par virement, chèque ou CB. Pour les particuliers, attestation de crédit d'impôt fournie automatiquement (50 % de réduction sur services à la personne).",
+    q: "Engagement minimum ?",
+    a: "Aucun abonnement obligatoire. Nous travaillons à la carte : une intervention ponctuelle avant votre arrivée, un planning saisonnier (été, vacances scolaires), ou un suivi annuel régulier selon votre usage du bien. Vous arrêtez quand vous le décidez, sans préavis particulier.",
   },
 ];
 
 const TESTIMONIALS = [
   {
-    author: "Shacy Will",
-    date: "Avril 2025",
-    body: "À la hauteur de la prestation demandée. Réactivité et contact au top. Je recommande cette société avec qui j'espère continuer de travailler.",
+    author: "Genève Expat",
+    date: "Mai 2025",
+    body: "Nous avons fait appel aux services de nettoyage de GH Services à notre entière satisfaction. Il s'agissait du nettoyage de notre maison avant remise des clés.",
   },
   {
     author: "Famille Roy",
@@ -134,36 +135,23 @@ const TESTIMONIALS = [
     body: "Nous sommes très satisfaits par le travail réalisé avec beaucoup de soin par Monsieur Gharbi qui s'est montré très réactif et avec lequel le contact a été très agréable.",
   },
   {
-    author: "Genève Expat",
-    date: "Mai 2025",
-    body: "Nous avons fait appel aux services de nettoyage de GH Services à notre entière satisfaction. Il s'agissait du nettoyage de notre maison avant remise des clés.",
+    author: "Shacy Will",
+    date: "Avril 2025",
+    body: "À la hauteur de la prestation demandée. Réactivité et contact au top. Je recommande cette société avec qui j'espère continuer de travailler.",
   },
 ];
 
 const SERVICE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": `${SITE_URL}/nettoyage-vitres-thonon#service`,
-  name: "Nettoyage de vitres à Thonon-les-Bains",
-  serviceType: "Nettoyage de vitres",
+  "@id": `${SITE_URL}/nettoyage-chalets-leman#service`,
+  name: "Nettoyage chalets et résidences secondaires",
+  serviceType: "Nettoyage de chalets et résidences secondaires",
   description:
-    "Lavage de vitres professionnel à l'eau osmosée et à la perche fibre de carbone. Particuliers, copropriétés, vérandas, commerces sur Thonon, Évian, Annemasse et tout le Chablais lémanique.",
-  url: `${SITE_URL}/nettoyage-vitres-thonon`,
+    "Nettoyage de chalets et résidences secondaires sur le bassin lémanique. Ménage avant arrivée propriétaire, turnover Airbnb 24 h, ouverture et fermeture saisonnière, gestion du linge. Yvoire, Évian, Thonon, Excenevex, Sciez.",
+  url: `${SITE_URL}/nettoyage-chalets-leman`,
   provider: { "@id": `${SITE_URL}/#localbusiness` },
   areaServed: ZONES.map((c) => ({ "@type": "City", name: c })),
-  offers: {
-    "@type": "AggregateOffer",
-    priceCurrency: "EUR",
-    lowPrice: "2.50",
-    highPrice: "5.00",
-    priceSpecification: {
-      "@type": "UnitPriceSpecification",
-      priceType: "https://schema.org/MinimumPrice",
-      price: "2.50",
-      priceCurrency: "EUR",
-      unitText: "m² par passage",
-    },
-  },
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
@@ -176,7 +164,7 @@ const SERVICE_SCHEMA = {
 const FAQ_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": `${SITE_URL}/nettoyage-vitres-thonon#faq`,
+  "@id": `${SITE_URL}/nettoyage-chalets-leman#faq`,
   mainEntity: FAQ.map((item) => ({
     "@type": "Question",
     name: item.q,
@@ -192,13 +180,13 @@ const BREADCRUMB_SCHEMA = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Nettoyage de vitres à Thonon",
-      item: `${SITE_URL}/nettoyage-vitres-thonon`,
+      name: "Nettoyage de chalets et résidences secondaires Léman",
+      item: `${SITE_URL}/nettoyage-chalets-leman`,
     },
   ],
 };
 
-export default function NettoyageVitresThononPage() {
+export default function NettoyageChaletsLemanPage() {
   return (
     <>
       <script
@@ -227,7 +215,9 @@ export default function NettoyageVitresThononPage() {
               Accueil
             </Link>
             <span className="mx-2 text-brown/30">/</span>
-            <span className="text-brown/75">Nettoyage de vitres à Thonon</span>
+            <span className="text-brown/75">
+              Nettoyage chalets et résidences secondaires Léman
+            </span>
           </div>
         </nav>
 
@@ -235,8 +225,8 @@ export default function NettoyageVitresThononPage() {
         <section className="relative isolate overflow-hidden bg-brown pb-20 pt-12 text-cream md:pb-28 md:pt-16">
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/photos/service-vitres.jpg"
-              alt="Laveurs de vitres en intervention sur une façade vitrée à Thonon-les-Bains"
+              src="/photos/lac-leman.jpg"
+              alt="Chalet et résidence secondaire au bord du lac Léman"
               fill
               priority
               sizes="100vw"
@@ -259,16 +249,19 @@ export default function NettoyageVitresThononPage() {
             </div>
 
             <h1 className="mt-6 max-w-3xl font-display text-[36px] leading-[1.05] font-bold tracking-tight uppercase text-cream sm:text-[48px] md:text-[64px]">
-              Nettoyage de vitres à{" "}
-              <span className="text-orange">Thonon-les-Bains</span>
+              Nettoyage de chalets et résidences secondaires sur le{" "}
+              <span className="text-orange">Léman</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base text-cream/95 sm:text-lg">
-              Lavage de vitres professionnel à l&apos;eau osmosée et à la perche
-              fibre de carbone, sans la moindre trace. Particuliers,
-              copropriétés, vérandas, vitrines de commerce et bureaux pros sur
-              Thonon, Évian, Annemasse et tout le Chablais lémanique. Devis
-              gratuit sous 24 heures.
+              Service de nettoyage dédié aux propriétaires de chalets et de
+              résidences secondaires sur la rive sud du Léman. Nous préparons
+              votre maison avant votre arrivée, gérons le turnover de vos
+              locations Airbnb en 24 heures, assurons l&apos;ouverture et la
+              fermeture saisonnière de votre bien. Intervention sur appel
+              propriétaire absent, gestion sécurisée des clés et rapport photo
+              après chaque passage. De Yvoire à Saint-Gingolph, en passant par
+              Évian et Thonon.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -291,15 +284,15 @@ export default function NettoyageVitresThononPage() {
             <ul className="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-sm font-medium text-cream/90">
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Eau osmosée, sans calcaire
+                Photos avant/après
               </li>
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Perche fibre carbone jusqu&apos;à 12 m
+                Gestion clés sécurisée
               </li>
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Crédit d&apos;impôt 50 % particuliers
+                Service à la carte sans abonnement
               </li>
             </ul>
           </div>
@@ -313,13 +306,15 @@ export default function NettoyageVitresThononPage() {
                 Pour qui
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Particuliers, syndics, commerces, hôteliers
+                Propriétaires absents, hôtes Airbnb, agences locatives
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Nous intervenons pour tout type de surface vitrée : vitres
-                simples, double vitrage, baies vitrées, vérandas, verrières,
-                fenêtres de toit Velux, garde-corps en verre, vitrines
-                commerciales et façades d&apos;immeubles.
+                Nous accompagnons les profils typiques du parc immobilier de
+                villégiature du Léman : la résidence secondaire familiale
+                utilisée quelques semaines par an, le chalet loué en saison,
+                la villa pied dans l&apos;eau réservée aux invités. Tous nos
+                intervenants sont identifiés et formés au travail dans des
+                biens habités occasionnellement.
               </p>
             </div>
 
@@ -349,13 +344,13 @@ export default function NettoyageVitresThononPage() {
                 Notre méthode
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Eau osmosée et perche fibre de carbone, zéro trace
+                Une procédure pensée pour les propriétaires absents
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Nous utilisons les techniques professionnelles modernes du
-                lavage de vitres, abandonnées par les laveurs amateurs et la
-                grande distribution. Résultat irréprochable sur double vitrage,
-                vitre teintée, miroir et véranda.
+                Confier un chalet à une équipe extérieure demande un cadre
+                clair. Notre méthode repose sur un protocole écrit, signé en
+                début de mission, qui sécurise la relation et garantit la
+                qualité du service pendant toute la durée du contrat.
               </p>
             </div>
 
@@ -365,12 +360,13 @@ export default function NettoyageVitresThononPage() {
                   Étape 1
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Diagnostic
+                  Visite pré-mission et inventaire
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Visite sur place ou par photos, mesure des surfaces vitrées,
-                  identification des contraintes (hauteur, accès, type de
-                  vitrage) et devis chiffré sous 24 heures.
+                  Rendez-vous sur place avec le propriétaire (ou en visio si
+                  vous êtes hors région) pour faire le tour du bien, lister
+                  les matériaux sensibles, identifier le mobilier de valeur et
+                  établir une checklist écrite adaptée.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -378,12 +374,13 @@ export default function NettoyageVitresThononPage() {
                   Étape 2
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Préparation
+                  Remise des clés sécurisée
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Protection des sols et joints, dépoussiérage des cadres,
-                  retrait des dépôts grossiers (fientes, sève, autocollants).
-                  EPI et balisage pour les interventions en hauteur.
+                  Signature d&apos;une procédure clés (code interne sans
+                  adresse, coffre verrouillé, intervenants identifiés
+                  nominativement). Vous gardez la maîtrise totale de
+                  l&apos;accès à votre bien à tout moment.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -391,12 +388,13 @@ export default function NettoyageVitresThononPage() {
                   Étape 3
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Lavage pro
+                  Intervention selon checklist signée
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Mouilleur professionnel, raclette Unger ou Ettore au sol.
-                  Perche télescopique fibre de carbone alimentée en eau osmosée
-                  pour les hauteurs jusqu&apos;à 12 m, sans nacelle.
+                  Chaque passage suit la checklist validée ensemble : pièces,
+                  surfaces, fréquences, points de vigilance. Aucune
+                  improvisation, aucun oubli, le même standard à chaque
+                  intervention.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -404,70 +402,75 @@ export default function NettoyageVitresThononPage() {
                   Étape 4
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Contrôle qualité
+                  Photos avant/après et rapport
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Inspection vitre par vitre à contre-jour, finition microfibre
-                  sur les bords si nécessaire. Validation avec le client avant
-                  facturation. Garantie satisfait ou refait.
+                  Compte rendu envoyé après chaque passage : photos des
+                  pièces principales, signalement de toute anomalie
+                  (intrusion, fuite, dégât locataire), confirmation des
+                  points clés. Vous êtes informé même à 5 000 km.
                 </p>
               </li>
             </ol>
           </div>
         </section>
 
-        {/* SPECIFICITES LEMAN */}
+        {/* SPECIFICITES CHABLAIS/LEMAN */}
         <section className="bg-cream py-20">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
             <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
               <div>
                 <p className="font-display text-xs font-bold uppercase tracking-[0.22em] text-orange">
-                  Spécificités du Léman
+                  Spécificités Chablais et Léman
                 </p>
                 <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                  Les vitres du Chablais salissent différemment
+                  Des biens qui demandent des gestes adaptés
                 </h2>
                 <p className="mt-5 text-base text-brown/75 md:text-lg">
-                  Quinze ans d&apos;intervention sur le bassin lémanique nous
-                  ont appris une chose : ici, les vitres ne se salissent pas
-                  comme ailleurs. Quatre facteurs locaux à connaître.
+                  Les chalets et villas du Léman ne se nettoient pas comme un
+                  appartement urbain standard. Matériaux nobles, exposition
+                  lacustre, alternance occupation/vacance prolongée : voici
+                  les quatre points qui distinguent notre approche locale.
                 </p>
 
                 <ul className="mt-8 space-y-4 text-sm text-brown/85 md:text-base">
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Embruns lacustres et calcaire :</strong> les vents
-                      du Léman déposent un voile minéral blanc sur les vitres
-                      des rives. L&apos;eau osmosée est la seule technique qui
-                      l&apos;élimine sans rayer.
+                      <strong>Parquets huilés des chalets bois :</strong>{" "}
+                      nettoyage à la microfibre légèrement humide, savon noir
+                      doux ou produit dédié parquet huilé. Pas de serpillière
+                      saturée, pas de détergent agressif qui blanchit la
+                      finition.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Pollens d&apos;avril à juin :</strong> bouleaux,
-                      peupliers et graminées créent une pellicule jaune collante
-                      qui sèche au soleil. Nécessite un mouillage abondant avant
-                      raclage.
+                      <strong>Marbre et pierre des villas pied dans
+                      l&apos;eau :</strong> sols et plans de travail en
+                      pierre naturelle ne supportent ni l&apos;acide ni le
+                      vinaigre. Produits neutres uniquement, gestes adaptés
+                      au type de pierre (calcaire, granit, travertin).
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Fientes de mouettes :</strong> en bord de lac
-                      (Thonon Rives, Yvoire, Évian) le risque d&apos;acidité
-                      sur le vitrage augmente. Intervention rapide
-                      recommandée.
+                      <strong>Draps et linge hôtel pour le turnover :</strong>{" "}
+                      protocole de rotation linge complet, lavage à 60 °C,
+                      lit fait au carré, serviettes pliées en éventail, kit
+                      accueil voyageur prêt pour le check-in.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Algues vertes sur vérandas :</strong> humidité
-                      ambiante du Chablais favorise les dépôts biologiques sur
-                      les toits verriers. Détergent biodégradable pour les
-                      retirer.
+                      <strong>Fermeture saisonnière anti humidité :</strong>{" "}
+                      avant une absence longue (hiver pour un chalet
+                      d&apos;été, été pour un pied à terre de ski), vidange
+                      des points d&apos;eau, aération profonde, contrôle de
+                      la VMC, retrait des denrées périssables.
                     </span>
                   </li>
                 </ul>
@@ -476,7 +479,7 @@ export default function NettoyageVitresThononPage() {
               <div className="relative aspect-[4/5] overflow-hidden rounded-[40px] ring-1 ring-brown/10">
                 <Image
                   src="/photos/lac-leman.jpg"
-                  alt="Vue du Lac Léman depuis Thonon-les-Bains, contexte d'intervention de GH Services"
+                  alt="Vue d'une résidence avec vue sur le lac Léman, secteur d'intervention de GH Services"
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -486,145 +489,101 @@ export default function NettoyageVitresThononPage() {
           </div>
         </section>
 
-        {/* TARIFS */}
-        <section id="tarifs" className="bg-brown py-20 text-cream">
+        {/* PRESTATIONS CHALET & LOCATIONS */}
+        <section id="prestations" className="bg-brown py-20 text-cream">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
             <div className="max-w-3xl">
               <p className="font-display text-xs font-bold uppercase tracking-[0.22em] text-orange">
-                Tarifs transparents
+                Nos prestations chalet et locations
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-cream sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Abonnement pro à partir de 2,50 € HT par m²
+                Cinq formats d&apos;intervention au service de votre bien
               </h2>
               <p className="mt-5 text-base text-cream/80 md:text-lg">
-                Trois formules d&apos;abonnement pour les commerces, vitrines
-                et locaux pros. Pour les particuliers, intervention ponctuelle
-                sur devis. Tous les tarifs sont indiqués en hors taxes.
+                Que vous occupiez votre résidence quelques semaines par an,
+                que vous la louiez sur Airbnb ou que vous confiiez sa gestion
+                à une agence, nous proposons un service modulaire qui suit
+                votre usage réel.
               </p>
             </div>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-3">
-              <div className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/20">
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-green-700">
-                  Essentiel
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  5,00 € <span className="text-base font-medium text-brown/60">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-brown/60">1 passage par mois</p>
-                <ul className="mt-6 space-y-3 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Intérieur et extérieur
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Accès standard
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Sans engagement de durée
-                  </li>
-                </ul>
-              </div>
-
-              <div className="relative rounded-3xl bg-orange p-7 text-cream ring-2 ring-orange/40">
-                <span className="absolute -top-3 right-6 rounded-full bg-cream px-3 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-orange">
-                  Le plus choisi
-                </span>
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-cream/90">
-                  Confort
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  3,50 € <span className="text-base font-medium text-cream/80">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-cream/80">2 passages par mois</p>
-                <ul className="mt-6 space-y-3 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Priorité planning
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Résultat sans traces garanti
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Idéal pour vitrines fréquentées
-                  </li>
-                </ul>
-              </div>
-
-              <div className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/20">
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-orange">
-                  Premium
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  2,50 € <span className="text-base font-medium text-brown/60">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-brown/60">4 passages par mois (hebdomadaire)</p>
-                <ul className="mt-6 space-y-3 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Image impeccable toute l&apos;année
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Tarif le plus avantageux au m²
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Idéal commerces très exposés
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="mt-10 rounded-3xl bg-cream/10 p-7 ring-1 ring-cream/20 backdrop-blur-md md:flex md:items-center md:gap-8">
-              <div className="md:flex-1">
-                <p className="font-display text-xs font-bold uppercase tracking-wider text-cream/70">
-                  Exemple concret
-                </p>
-                <p className="mt-2 font-display text-2xl font-bold tracking-tight text-cream">
-                  Vitrine de magasin, 20 m², 1 passage par mois
-                </p>
-                <p className="mt-2 text-sm text-cream/80">
-                  Intérieur et extérieur, accès de plain-pied, résultat sans
-                  traces vérifié.
-                </p>
-              </div>
-              <div className="mt-4 inline-flex items-baseline gap-2 rounded-2xl bg-orange px-6 py-4 md:mt-0">
-                <span className="font-display text-4xl font-bold tracking-tight text-cream">
-                  50 €
-                </span>
-                <span className="text-sm font-medium text-cream/90">
-                  HT par intervention
-                </span>
-              </div>
-            </div>
-
-            <div className="mt-8 grid gap-4 md:grid-cols-2">
-              <div className="rounded-2xl bg-cream/5 p-6 ring-1 ring-cream/15">
-                <h3 className="font-display text-base font-bold uppercase tracking-tight text-cream">
-                  Particuliers : intervention ponctuelle
+            <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              <article className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/15">
+                <h3 className="font-display text-lg font-bold uppercase tracking-tight text-brown">
+                  Ménage avant arrivée propriétaire
                 </h3>
-                <p className="mt-2 text-sm text-cream/80">
-                  Devis personnalisé sur place ou par photos. Pour une maison
-                  individuelle, comptez en moyenne 80 à 180 € selon surface et
-                  hauteur. Possibilité d&apos;abonnement saisonnier
-                  (printemps/automne).
+                <p className="mt-3 text-sm leading-6 text-brown/75">
+                  Vous arrivez vendredi soir ? Nous passons jeudi : lits
+                  faits avec votre linge, frigo nettoyé, salles de bain
+                  fraîches, aération et chauffage activés. Vous entrez dans
+                  une maison prête à vivre.
                 </p>
-              </div>
-              <div className="rounded-2xl bg-cream/5 p-6 ring-1 ring-cream/15">
-                <h3 className="font-display text-base font-bold uppercase tracking-tight text-cream">
-                  Crédit d&apos;impôt 50 %
+              </article>
+
+              <article className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/15">
+                <h3 className="font-display text-lg font-bold uppercase tracking-tight text-brown">
+                  Ménage après départ locataires (turnover 24 h)
                 </h3>
-                <p className="mt-2 text-sm text-cream/80">
-                  Pour les particuliers à domicile, nos prestations entrent
-                  dans le cadre des services à la personne agréés. Vous
-                  récupérez 50 % de la facture sous forme de crédit
-                  d&apos;impôt, attestation fournie en fin d&apos;année.
+                <p className="mt-3 text-sm leading-6 text-brown/75">
+                  Spécifique Airbnb et locations courtes durées. Sortie à
+                  11 h, intervention dans la foulée, check-in voyageur
+                  suivant à 16 h. Checklist Airbnb complète, kit accueil
+                  remis en place, photos de validation.
                 </p>
+              </article>
+
+              <article className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/15">
+                <h3 className="font-display text-lg font-bold uppercase tracking-tight text-brown">
+                  Ouverture et fermeture saisonnière
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-brown/75">
+                  Deux interventions clés dans l&apos;année. Ouverture :
+                  remise en service complète avant la saison. Fermeture :
+                  mise en sommeil du bien, anti humidité, contrôle des
+                  points sensibles avant absence prolongée.
+                </p>
+              </article>
+
+              <article className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/15">
+                <h3 className="font-display text-lg font-bold uppercase tracking-tight text-brown">
+                  Gestion du linge et des lits
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-brown/75">
+                  Lavage, séchage, repassage si demandé, lit refait. Nous
+                  gérons votre stock personnel ou un parc dédié avec
+                  blanchisserie partenaire pour les hôtes Airbnb à fort
+                  volume.
+                </p>
+              </article>
+
+              <article className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/15">
+                <h3 className="font-display text-lg font-bold uppercase tracking-tight text-brown">
+                  Conciergerie ménage courant
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-brown/75">
+                  Passage régulier (hebdomadaire, bimensuel, mensuel) entre
+                  deux séjours pour maintenir le bien en parfait état.
+                  Aération, dépoussiérage, contrôle visuel, signalement de
+                  toute anomalie constatée.
+                </p>
+              </article>
+
+              <div className="rounded-3xl bg-orange p-7 text-cream ring-1 ring-orange/40">
+                <h3 className="font-display text-lg font-bold uppercase tracking-tight">
+                  Devis personnalisé sous 24 h
+                </h3>
+                <p className="mt-3 text-sm leading-6 text-cream/95">
+                  Chaque chalet est unique, chaque usage aussi. Décrivez
+                  votre bien et votre fréquence souhaitée, nous revenons vers
+                  vous avec un chiffrage clair. Intervention sur appel pour
+                  propriétaire absent, sans avance de paiement.
+                </p>
+                <a
+                  href="#devis"
+                  className="mt-5 inline-flex items-center gap-2 rounded-full bg-cream px-5 py-2.5 font-display text-xs font-bold uppercase tracking-wider text-brown transition-colors hover:bg-cream-soft"
+                >
+                  Recevoir mon devis
+                </a>
               </div>
             </div>
           </div>
@@ -638,12 +597,13 @@ export default function NettoyageVitresThononPage() {
                 Zones d&apos;intervention
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Tout le Chablais et la rive sud du Léman
+                Toute la rive sud du Léman et le Chablais
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Notre équipe se déplace dans tout le bassin lémanique français,
-                de Genève à Saint-Gingolph. Frais de déplacement offerts
-                jusqu&apos;à 25 km autour de Thonon-les-Bains.
+                Nous priorisons les communes du littoral lémanique, là où se
+                concentre le parc de résidences secondaires et de locations
+                saisonnières. Déplacement intégré au devis pour les communes
+                proches, supplément raisonnable au delà.
               </p>
             </div>
 
@@ -725,7 +685,7 @@ export default function NettoyageVitresThononPage() {
                 FAQ
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Tout ce que vous voulez savoir
+                Vos questions de propriétaires
               </h2>
             </div>
 
@@ -754,44 +714,45 @@ export default function NettoyageVitresThononPage() {
               Services connexes
             </p>
             <h2 className="mt-3 font-display text-2xl font-bold uppercase tracking-tight text-brown sm:text-3xl md:text-[36px] md:leading-[1.1]">
-              Autres prestations à Thonon-les-Bains
+              Compléter l&apos;entretien de votre chalet
             </h2>
 
             <div className="mt-8 grid gap-5 md:grid-cols-3">
               <Link
-                href="/fin-de-chantier-thonon"
+                href="/nettoyage-vitres-thonon"
                 className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
               >
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
-                  Nettoyage fin de chantier
+                  Nettoyage de vitres
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Remise à neuf après travaux, dépoussiérage profond, retrait
-                  des résidus de peinture sur les vitres.
+                  Baies vitrées face au lac, vérandas, vitres en hauteur des
+                  chalets bois. Eau osmosée, sans traces.
                 </p>
               </Link>
               <Link
-                href="/nettoyage-coproprietes-thonon"
+                href="/nettoyage-textiles-thonon"
                 className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
               >
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
-                  Nettoyage copropriétés
+                  Nettoyage canapés et tapis
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Parties communes, halls vitrés, cages d&apos;escalier,
-                  contrats syndic adaptés au volume.
+                  Injection-extraction sur canapés tissu, tapis et matelas
+                  des chambres d&apos;invités. Idéal après saison de
+                  location.
                 </p>
               </Link>
               <Link
-                href="/etat-des-lieux-sortant-thonon"
+                href="/entretien-espaces-verts-thonon"
                 className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
               >
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
-                  Nettoyage état des lieux sortant
+                  Entretien espaces verts
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Préparation à la remise des clés, vitres incluses, pour
-                  récupérer 100 % de votre caution.
+                  Tonte, taille, entretien du jardin de votre chalet pendant
+                  votre absence. Passage planifié à la saison.
                 </p>
               </Link>
             </div>
@@ -808,12 +769,14 @@ export default function NettoyageVitresThononPage() {
                     Devis sous 24 h
                   </p>
                   <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                    Recevez votre devis nettoyage de vitres
+                    Recevez votre devis chalet et résidence secondaire
                   </h2>
                   <p className="mt-5 text-base text-brown/75 md:text-lg">
-                    Décrivez-nous votre besoin (surface vitrée, type de
-                    bâtiment, fréquence souhaitée). Réponse chiffrée sous 24
-                    heures ouvrées.
+                    Décrivez votre bien (surface, nombre de chambres, type de
+                    matériaux), votre usage (résidence secondaire, location
+                    Airbnb, mixte) et la fréquence souhaitée. Devis
+                    personnalisé sous 24 heures, intervention possible sur
+                    appel propriétaire absent.
                   </p>
                 </div>
 
@@ -848,8 +811,8 @@ export default function NettoyageVitresThononPage() {
               </aside>
 
               <ServiceQuoteForm
-                serviceLabel="Nettoyage de vitres"
-                source="vitres_thonon"
+                serviceLabel="Nettoyage chalet Léman"
+                source="chalets_leman"
               />
             </div>
           </div>

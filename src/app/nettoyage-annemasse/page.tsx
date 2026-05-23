@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Entreprise de nettoyage à Annemasse | GH Services",
+  title: "Entreprise de nettoyage à Annemasse",
   description:
     "Société de nettoyage à Annemasse et Genevois. Entreprises, copropriétés, particuliers, frontaliers. Intervention rapide depuis Thonon. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-annemasse`,
   },
   openGraph: {
-    title: "Entreprise de nettoyage à Annemasse | GH Services",
+    title: "Entreprise de nettoyage à Annemasse",
     description:
       "Société de nettoyage à Annemasse et Genevois. Entreprises, copropriétés, particuliers, frontaliers. Intervention rapide depuis Thonon. Devis 24 h.",
     url: `${SITE_URL}/nettoyage-annemasse`,

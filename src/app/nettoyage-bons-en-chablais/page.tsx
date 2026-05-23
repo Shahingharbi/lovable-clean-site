@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Entreprise de nettoyage à Bons-en-Chablais | GH Services",
+  title: "Entreprise de nettoyage à Bons-en-Chablais",
   description:
     "Nettoyage à Bons-en-Chablais, Cervens et Brens. Maisons, copros, commerces et fin de chantier. Équipe Thonon, intervention 7j/7. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-bons-en-chablais`,
   },
   openGraph: {
-    title: "Entreprise de nettoyage à Bons-en-Chablais | GH Services",
+    title: "Entreprise de nettoyage à Bons-en-Chablais",
     description:
       "Nettoyage à Bons-en-Chablais, Cervens et Brens. Maisons, copros, commerces et fin de chantier. Équipe Thonon, intervention 7j/7. Devis 24 h.",
     url: `${SITE_URL}/nettoyage-bons-en-chablais`,

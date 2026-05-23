@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -18,13 +18,13 @@ const META_DESCRIPTION =
   "Aide ménagère à Évian, crédit d'impôt 50%. Ménage régulier, repassage, résidences secondaires. Équipe locale Thonon, équipe stable. Devis 24 h.";
 
 export const metadata: Metadata = {
-  title: "Société de ménage à Évian-les-Bains | GH Services",
+  title: "Société de ménage à Évian-les-Bains",
   description: META_DESCRIPTION,
   alternates: {
     canonical: `${SITE_URL}/menage-evian-les-bains`,
   },
   openGraph: {
-    title: "Société de ménage à Évian-les-Bains | GH Services",
+    title: "Société de ménage à Évian-les-Bains",
     description: META_DESCRIPTION,
     url: `${SITE_URL}/menage-evian-les-bains`,
     type: "website",

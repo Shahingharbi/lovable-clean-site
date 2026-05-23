@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Nettoyage fin de bail à Annemasse | GH Services",
+  title: "Nettoyage fin de bail à Annemasse",
   description:
     "Nettoyage état des lieux sortant à Annemasse. Récupérez 100% caution. Intervention 48h, agences immo Annemasse Ambilly. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-fin-de-bail-annemasse`,
   },
   openGraph: {
-    title: "Nettoyage fin de bail à Annemasse | GH Services",
+    title: "Nettoyage fin de bail à Annemasse",
     description:
       "Nettoyage état des lieux sortant à Annemasse. Récupérez 100% caution. Intervention 48h, agences immo Annemasse Ambilly. Devis 24 h.",
     url: `${SITE_URL}/nettoyage-fin-de-bail-annemasse`,

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Entreprise de nettoyage à Publier-Amphion | GH Services",
+  title: "Entreprise de nettoyage à Publier-Amphion",
   description:
     "Nettoyage à Publier et Amphion-les-Bains, rive sud du Léman. Particuliers, résidences, copros. Équipe Thonon, intervention 7j/7. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-publier`,
   },
   openGraph: {
-    title: "Entreprise de nettoyage à Publier-Amphion | GH Services",
+    title: "Entreprise de nettoyage à Publier-Amphion",
     description:
       "Nettoyage à Publier et Amphion-les-Bains, rive sud du Léman. Particuliers, résidences, copros. Équipe Thonon, intervention 7j/7. Devis 24 h.",
     url: `${SITE_URL}/nettoyage-publier`,

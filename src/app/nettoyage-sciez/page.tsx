@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Nettoyage à Sciez-sur-Léman et rive sud | GH Services",
+  title: "Nettoyage à Sciez-sur-Léman et rive sud",
   description:
     "Société de nettoyage à Sciez-sur-Léman. Maisons, campings, restaurants port, copropriétés Coudrée. Équipe locale, devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-sciez`,
   },
   openGraph: {
-    title: "Nettoyage à Sciez-sur-Léman et rive sud | GH Services",
+    title: "Nettoyage à Sciez-sur-Léman et rive sud",
     description:
       "Entreprise de nettoyage à Sciez-sur-Léman : villas Coudrée, campings plage, restaurants port, copropriétés rive sud du Léman. Devis sous 24 heures.",
     url: `${SITE_URL}/nettoyage-sciez`,

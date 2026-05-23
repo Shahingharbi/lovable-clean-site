@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Nettoyage de vitres à Annemasse | GH Services",
+  title: "Nettoyage de vitres à Annemasse",
   description:
     "Lavage de vitres pro à Annemasse, Ambilly, Étrembières. Eau osmosée, bureaux, vitrines, immeubles. Équipe pro Thonon. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-vitres-annemasse`,
   },
   openGraph: {
-    title: "Nettoyage de vitres à Annemasse | GH Services",
+    title: "Nettoyage de vitres à Annemasse",
     description:
       "Lavage de vitres pro à Annemasse, Ambilly, Étrembières. Eau osmosée, bureaux, vitrines, immeubles. Équipe pro Thonon. Devis 24 h.",
     url: `${SITE_URL}/nettoyage-vitres-annemasse`,

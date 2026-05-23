@@ -16,26 +16,27 @@ const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
   title:
-    "Nettoyage de vitres à Thonon-les-Bains : eau osmosée, sans traces",
+    "Nettoyage canapé, tapis et moquette à Thonon",
   description:
-    "Lavage de vitres pro à Thonon, Évian et Léman. Eau osmosée, perche carbone, sans traces. Particuliers, copropriétés, vérandas, commerces. Devis 24h.",
+    "Nettoyage canapés tissu/cuir, tapis, matelas, moquettes à domicile à Thonon. Injection-extraction, anti-acariens, séchage rapide. Devis 24 h.",
   alternates: {
-    canonical: `${SITE_URL}/nettoyage-vitres-thonon`,
+    canonical: `${SITE_URL}/nettoyage-textiles-thonon`,
   },
   openGraph: {
-    title: "Nettoyage de vitres à Thonon-les-Bains",
+    title:
+      "Nettoyage canapé, tapis et moquette à Thonon",
     description:
-      "Lavage de vitres pro à Thonon, Évian et Léman. Eau osmosée, perche carbone, sans traces. Particuliers, copropriétés, vérandas, commerces.",
-    url: `${SITE_URL}/nettoyage-vitres-thonon`,
+      "Nettoyage canapés tissu/cuir, tapis, matelas, moquettes à domicile à Thonon. Injection-extraction, anti-acariens, séchage rapide.",
+    url: `${SITE_URL}/nettoyage-textiles-thonon`,
     type: "website",
     locale: "fr_FR",
     siteName: "GH Services",
     images: [
       {
-        url: "/photos/service-vitres.jpg",
+        url: "/photos/service-textile.jpg",
         width: 1600,
         height: 900,
-        alt: "Laveurs de vitres professionnels à Thonon-les-Bains",
+        alt: "Nettoyage professionnel de canapés, tapis et moquettes à Thonon-les-Bains",
       },
     ],
   },
@@ -43,28 +44,28 @@ export const metadata: Metadata = {
 
 const PERSONAS = [
   {
-    title: "Particuliers",
-    desc: "Vitres de maison, baies vitrées, fenêtres de toit Velux. Crédit d'impôt 50 % pour les services à domicile.",
+    title: "Familles avec enfants",
+    desc: "Canapés tissu chargés en miettes, jus, feutres, salissures quotidiennes. Traitement anti-acariens et produits sans solvant pour préserver la santé des plus jeunes.",
   },
   {
-    title: "Copropriétés et syndics",
-    desc: "Parties communes, halls vitrés, garde-corps verre, vitres d'immeubles à Thonon, Évian et Annemasse.",
+    title: "Propriétaires de canapés cuir",
+    desc: "Nettoyage doux du cuir véritable, nourrissage et protection. Produits adaptés cuir lisse, nubuck et cuir pleine fleur, sans agresser la patine.",
   },
   {
-    title: "Vérandas et verrières",
-    desc: "Toits verriers, parois verticales, structures aluminium. Traitement spécifique des algues et dépôts verts du Chablais.",
+    title: "Locataires fin de bail",
+    desc: "Remise en état des moquettes et canapés inclus dans le mobilier loué. Indispensable pour récupérer 100 % de la caution lors de l'état des lieux sortant.",
   },
   {
-    title: "Résidences secondaires et chalets",
-    desc: "Entretien régulier ou avant arrivée, rives du Léman, Yvoire, Saint-Gingolph, secteur frontalier de Genève.",
+    title: "Hôtels et chambres d'hôtes",
+    desc: "Matelas, têtes de lit, fauteuils de chambre, rideaux, moquettes de couloir. Rotation rapide entre deux séjours, séchage en moins de 2 heures.",
   },
   {
-    title: "Commerces et vitrines",
-    desc: "Magasins, restaurants, agences. Formules d'abonnement à partir de 2,50 € HT par m² (passage hebdomadaire).",
+    title: "Restaurants",
+    desc: "Banquettes, chaises tissu, moquettes de salle. Détachage spécifique vin, gras, café. Intervention de nuit ou hors service possible à Thonon, Évian, Yvoire.",
   },
   {
-    title: "Bureaux et locaux pros",
-    desc: "Façades vitrées, cloisons internes, baies bureau. Intervention en horaires décalés possible.",
+    title: "Allergiques aux acariens",
+    desc: "Traitement vapeur 65 °C sur matelas, canapés et tapis. Élimination des acariens et de leurs déjections, sans biocide. Recommandé en cas d'asthme ou de rhinite.",
   },
 ];
 
@@ -86,38 +87,69 @@ const ZONES = [
   "Saint-Gingolph",
 ];
 
+const SUPPORTS = [
+  {
+    name: "Canapé 2 places",
+    detail: "Tissu ou microfibre, assises et dossiers, traitement anti-acariens inclus.",
+  },
+  {
+    name: "Canapé 3 places",
+    detail: "Tissu, microfibre ou cuir. Coussins déhoussables traités séparément si besoin.",
+  },
+  {
+    name: "Fauteuil et bergère",
+    detail: "Shampoing fauteuil par injection-extraction, séchage rapide air comprimé.",
+  },
+  {
+    name: "Matelas simple ou double",
+    detail: "Traitement vapeur 65 °C anti-acariens, désinfection en profondeur, sans biocide.",
+  },
+  {
+    name: "Tapis au m²",
+    detail: "Tapis machine, tapis berbère, kilim, tapis de chalet en laine. Diagnostic fibre préalable.",
+  },
+  {
+    name: "Moquette pièce ou domicile complet",
+    detail: "Injection-extraction sur moquette collée ou tendue, détachage localisé compris.",
+  },
+  {
+    name: "Rideaux et voilages",
+    detail: "Nettoyage en place ou en atelier selon la matière, sans démontage des tringles.",
+  },
+];
+
 const FAQ = [
   {
-    q: "À quelle fréquence faut-il nettoyer ses vitres à Thonon ?",
-    a: "Sur le bassin lémanique, comptez 2 à 4 passages par an pour des vitres résidentielles, 1 passage par mois pour une vitrine commerciale, et un nettoyage hebdomadaire pour les bureaux exposés à la pollution routière. Les vitres exposées au lac (embruns) ou aux pollens d'avril à juin se salissent plus vite.",
+    q: "Combien de temps de séchage après injection-extraction ?",
+    a: "Sur un canapé tissu, comptez 3 à 5 heures avant remise en service complète, et 1 à 2 heures pour un usage normal grâce à notre système d'extraction haute dépression et à la finition à l'air comprimé. Pour une moquette, prévoyez 4 à 8 heures avec aération de la pièce. La pièce reste utilisable, simplement évitez les chaussures et les chaussettes blanches sur la zone traitée.",
   },
   {
-    q: "Vous nettoyez les vitres en hauteur ?",
-    a: "Oui. Nous travaillons à la perche télescopique en fibre de carbone alimentée en eau osmosée jusqu'à 12 mètres, sans nacelle ni échafaudage. Au-delà, nous mobilisons une nacelle ou un cordiste selon la configuration. Tous nos intervenants sont formés au travail en hauteur et équipés EPI.",
+    q: "Traitez-vous le cuir véritable ?",
+    a: "Oui. Le cuir lisse, le cuir pleine fleur et la croûte de cuir nécessitent un protocole spécifique : nettoyage à la mousse sèche, rinçage micro-fibre, puis nourrissage par crème spéciale cuir. Nous ne pratiquons pas l'injection-extraction sur cuir véritable, technique réservée aux textiles. Le nubuck et le cuir suédé exigent un test préalable sur zone cachée.",
   },
   {
-    q: "Pourquoi utilisez-vous de l'eau osmosée ?",
-    a: "L'eau osmosée (eau pure, sans calcaire ni minéraux) sèche sans laisser la moindre trace. C'est la méthode pro qui remplace la raclette traditionnelle sur les surfaces difficiles d'accès. Sur le Léman, où l'eau du robinet est calcaire, c'est indispensable pour un résultat irréprochable.",
+    q: "Pouvez-vous enlever une tache de vin sèche ?",
+    a: "Dans la majorité des cas, oui. Une tache de vin rouge (Apremont, Mondeuse, Gamay) fixée depuis plusieurs semaines reste traitable par pré-détachage à pH alcalin puis injection-extraction. Le taux de réussite dépend de la fibre (laine, coton, polyester), du fait que la tache ait été lavée à l'eau chaude (à éviter) et de l'ancienneté. Nous évaluons la tache avant intervention, sans engagement.",
   },
   {
-    q: "Le mauvais temps annule l'intervention ?",
-    a: "Non, contrairement à ce qu'on imagine, la pluie n'altère pas la qualité d'un lavage à l'eau osmosée. Seul le vent fort ou le gel suspendent l'intervention pour des raisons de sécurité. Vous êtes prévenu la veille et la prestation est reportée gratuitement.",
-  },
-  {
-    q: "Combien de temps tiennent les vitres propres après votre passage ?",
-    a: "En extérieur, comptez environ 4 à 8 semaines selon l'exposition. En intérieur, plusieurs mois sans entretien. Une vitrine commerciale en bordure de route restera nette environ 2 à 3 semaines, d'où nos formules d'abonnement.",
+    q: "Vous intervenez à domicile ou en atelier ?",
+    a: "À domicile dans 95 % des cas : canapés, matelas, moquettes collées ou tendues, fauteuils, tapis volumineux. Notre matériel professionnel d'injection-extraction est entièrement transportable. Pour les tapis fragiles, berbères ou en soie, nous pouvons proposer un enlèvement en atelier pour un traitement par immersion contrôlée.",
   },
   {
     q: "Vos produits sont écologiques ?",
-    a: "Oui. Pour les vitres simples nous travaillons uniquement à l'eau osmosée, sans détergent. Quand un détergent est nécessaire (graisse cuisine, traces de pollution), nous utilisons des produits biodégradables, sans solvant. Aucun rejet polluant pour le bassin du Léman.",
+    a: "Oui. Nous travaillons avec des détergents biodégradables certifiés Ecolabel, sans solvant chloré, sans phosphate et sans parfum allergène. Pour le traitement anti-acariens, nous privilégions la vapeur sèche à 65 °C, sans biocide. Compatible familles avec enfants en bas âge, animaux de compagnie et personnes allergiques.",
   },
   {
-    q: "Quelle est la durée d'une intervention type ?",
-    a: "Pour un appartement T3 (environ 30 m² de surface vitrée intérieure + extérieure), comptez 1h30 à 2h. Une vitrine commerciale de 20 m² prend 45 minutes. Une véranda de 25 m² environ 2h. Nous communiquons une fenêtre horaire précise lors du devis.",
+    q: "Faut-il déplacer les meubles ?",
+    a: "Pour le nettoyage d'un canapé ou d'un fauteuil seul, aucun déplacement n'est nécessaire. Pour une moquette pièce complète, nous déplaçons les meubles légers (chaises, petites tables) sans surcoût et protégeons les pieds des meubles lourds avec des cales étanches le temps du séchage. Les armoires et bibliothèques peuvent rester en place, nous nettoyons jusqu'au ras.",
   },
   {
-    q: "Comment se passe le paiement ?",
-    a: "Devis gratuit sous 24h, validation par e-mail, intervention planifiée, facture après réalisation. Paiement par virement, chèque ou CB. Pour les particuliers, attestation de crédit d'impôt fournie automatiquement (50 % de réduction sur services à la personne).",
+    q: "Vos prestations sont-elles éligibles au crédit d'impôt ?",
+    a: "Oui pour les particuliers, à domicile. Le nettoyage de canapés, tapis, matelas et moquettes entre dans le cadre des services à la personne agréés. Vous récupérez 50 % du montant TTC sous forme de crédit d'impôt, attestation fiscale fournie automatiquement en fin d'année. Non applicable aux professionnels et locaux commerciaux.",
+  },
+  {
+    q: "Quel délai d'intervention ?",
+    a: "Devis chiffré sous 24 heures à partir de photos ou d'une visite. Intervention planifiée sous 5 à 10 jours selon votre disponibilité et la période. En urgence (fin de bail, dégât, état des lieux), nous proposons des créneaux sous 48 à 72 heures dans la limite des plannings. Pour les hôtels, planning récurrent négocié en début de saison.",
   },
 ];
 
@@ -136,34 +168,21 @@ const TESTIMONIALS = [
   {
     author: "Genève Expat",
     date: "Mai 2025",
-    body: "Nous avons fait appel aux services de nettoyage de GH Services à notre entière satisfaction. Il s'agissait du nettoyage de notre maison avant remise des clés.",
+    body: "Nous avons fait appel aux services de nettoyage de GH Services à notre entière satisfaction.",
   },
 ];
 
 const SERVICE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": `${SITE_URL}/nettoyage-vitres-thonon#service`,
-  name: "Nettoyage de vitres à Thonon-les-Bains",
-  serviceType: "Nettoyage de vitres",
+  "@id": `${SITE_URL}/nettoyage-textiles-thonon#service`,
+  name: "Nettoyage canapé, tapis et moquette à Thonon-les-Bains",
+  serviceType: "Nettoyage de textiles",
   description:
-    "Lavage de vitres professionnel à l'eau osmosée et à la perche fibre de carbone. Particuliers, copropriétés, vérandas, commerces sur Thonon, Évian, Annemasse et tout le Chablais lémanique.",
-  url: `${SITE_URL}/nettoyage-vitres-thonon`,
+    "Nettoyage professionnel de canapés tissu et cuir, tapis berbères et machine, matelas anti-acariens, moquettes domicile par injection-extraction. Intervention à domicile sur Thonon, Évian et tout le Chablais lémanique.",
+  url: `${SITE_URL}/nettoyage-textiles-thonon`,
   provider: { "@id": `${SITE_URL}/#localbusiness` },
   areaServed: ZONES.map((c) => ({ "@type": "City", name: c })),
-  offers: {
-    "@type": "AggregateOffer",
-    priceCurrency: "EUR",
-    lowPrice: "2.50",
-    highPrice: "5.00",
-    priceSpecification: {
-      "@type": "UnitPriceSpecification",
-      priceType: "https://schema.org/MinimumPrice",
-      price: "2.50",
-      priceCurrency: "EUR",
-      unitText: "m² par passage",
-    },
-  },
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",
@@ -176,7 +195,7 @@ const SERVICE_SCHEMA = {
 const FAQ_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": `${SITE_URL}/nettoyage-vitres-thonon#faq`,
+  "@id": `${SITE_URL}/nettoyage-textiles-thonon#faq`,
   mainEntity: FAQ.map((item) => ({
     "@type": "Question",
     name: item.q,
@@ -192,13 +211,13 @@ const BREADCRUMB_SCHEMA = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Nettoyage de vitres à Thonon",
-      item: `${SITE_URL}/nettoyage-vitres-thonon`,
+      name: "Nettoyage canapé, tapis et moquette à Thonon",
+      item: `${SITE_URL}/nettoyage-textiles-thonon`,
     },
   ],
 };
 
-export default function NettoyageVitresThononPage() {
+export default function NettoyageTextilesThononPage() {
   return (
     <>
       <script
@@ -227,7 +246,9 @@ export default function NettoyageVitresThononPage() {
               Accueil
             </Link>
             <span className="mx-2 text-brown/30">/</span>
-            <span className="text-brown/75">Nettoyage de vitres à Thonon</span>
+            <span className="text-brown/75">
+              Nettoyage canapé, tapis et moquette à Thonon
+            </span>
           </div>
         </nav>
 
@@ -235,8 +256,8 @@ export default function NettoyageVitresThononPage() {
         <section className="relative isolate overflow-hidden bg-brown pb-20 pt-12 text-cream md:pb-28 md:pt-16">
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/photos/service-vitres.jpg"
-              alt="Laveurs de vitres en intervention sur une façade vitrée à Thonon-les-Bains"
+              src="/photos/service-textile.jpg"
+              alt="Nettoyage de canapé tissu par injection-extraction à Thonon-les-Bains"
               fill
               priority
               sizes="100vw"
@@ -259,16 +280,18 @@ export default function NettoyageVitresThononPage() {
             </div>
 
             <h1 className="mt-6 max-w-3xl font-display text-[36px] leading-[1.05] font-bold tracking-tight uppercase text-cream sm:text-[48px] md:text-[64px]">
-              Nettoyage de vitres à{" "}
+              Nettoyage de canapés, tapis et moquettes à{" "}
               <span className="text-orange">Thonon-les-Bains</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base text-cream/95 sm:text-lg">
-              Lavage de vitres professionnel à l&apos;eau osmosée et à la perche
-              fibre de carbone, sans la moindre trace. Particuliers,
-              copropriétés, vérandas, vitrines de commerce et bureaux pros sur
-              Thonon, Évian, Annemasse et tout le Chablais lémanique. Devis
-              gratuit sous 24 heures.
+              Nettoyage canapé tissu et cuir, tapis berbère, moquette à
+              domicile, matelas anti-acariens, fauteuil et rideaux. Méthode
+              professionnelle par injection-extraction haute dépression,
+              vapeur sèche 65 °C et détachage ciblé sur les taches courantes
+              (vin rouge, café, gras, encre). Intervention à domicile à
+              Thonon, Évian et tout le Chablais lémanique. Devis personnalisé
+              sous 24 heures.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -290,16 +313,16 @@ export default function NettoyageVitresThononPage() {
 
             <ul className="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-sm font-medium text-cream/90">
               <li className="inline-flex items-center gap-2">
-                <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Eau osmosée, sans calcaire
+                <span className="h-1.5 w-1.5 rounded-full bg-orange" />À
+                domicile
               </li>
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Perche fibre carbone jusqu&apos;à 12 m
+                Séchage rapide
               </li>
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Crédit d&apos;impôt 50 % particuliers
+                Anti-acariens
               </li>
             </ul>
           </div>
@@ -313,13 +336,13 @@ export default function NettoyageVitresThononPage() {
                 Pour qui
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Particuliers, syndics, commerces, hôteliers
+                Familles, hôteliers, restaurateurs, allergiques
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Nous intervenons pour tout type de surface vitrée : vitres
-                simples, double vitrage, baies vitrées, vérandas, verrières,
-                fenêtres de toit Velux, garde-corps en verre, vitrines
-                commerciales et façades d&apos;immeubles.
+                Notre service de nettoyage textile s&apos;adresse à tous
+                ceux qui veulent retrouver la propreté, l&apos;hygiène et
+                l&apos;aspect d&apos;origine de leurs canapés, fauteuils,
+                tapis, matelas et moquettes, sans les remplacer.
               </p>
             </div>
 
@@ -349,13 +372,13 @@ export default function NettoyageVitresThononPage() {
                 Notre méthode
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Eau osmosée et perche fibre de carbone, zéro trace
+                Injection-extraction et vapeur 65 °C, séchage rapide
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Nous utilisons les techniques professionnelles modernes du
-                lavage de vitres, abandonnées par les laveurs amateurs et la
-                grande distribution. Résultat irréprochable sur double vitrage,
-                vitre teintée, miroir et véranda.
+                Quatre étapes professionnelles pour un nettoyage en
+                profondeur, sans détrempage de la mousse, sans auréole et
+                sans risque pour la fibre. Méthode validée sur tissu,
+                microfibre, laine, cuir et synthétique.
               </p>
             </div>
 
@@ -365,12 +388,12 @@ export default function NettoyageVitresThononPage() {
                   Étape 1
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Diagnostic
+                  Diagnostic fibre
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Visite sur place ou par photos, mesure des surfaces vitrées,
-                  identification des contraintes (hauteur, accès, type de
-                  vitrage) et devis chiffré sous 24 heures.
+                  Identification de la composition (laine, coton,
+                  polyester, microfibre, cuir), test de solidité des
+                  couleurs sur zone cachée et choix du protocole adapté.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -378,12 +401,12 @@ export default function NettoyageVitresThononPage() {
                   Étape 2
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Préparation
+                  Aspiration et pré-traitement
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Protection des sols et joints, dépoussiérage des cadres,
-                  retrait des dépôts grossiers (fientes, sève, autocollants).
-                  EPI et balisage pour les interventions en hauteur.
+                  Aspiration profonde HEPA pour retirer poussières, poils et
+                  acariens, puis pré-détachage des zones marquées avec un
+                  pré-spray adapté au pH de la fibre.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -391,12 +414,12 @@ export default function NettoyageVitresThononPage() {
                   Étape 3
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Lavage pro
+                  Injection-extraction ou vapeur 65 °C
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Mouilleur professionnel, raclette Unger ou Ettore au sol.
-                  Perche télescopique fibre de carbone alimentée en eau osmosée
-                  pour les hauteurs jusqu&apos;à 12 m, sans nacelle.
+                  Injection d&apos;eau tiède et de détergent biodégradable
+                  puis extraction immédiate par dépression. Vapeur sèche
+                  65 °C en finition pour les matelas et l&apos;anti-acariens.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -404,70 +427,71 @@ export default function NettoyageVitresThononPage() {
                   Étape 4
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Contrôle qualité
+                  Séchage rapide air comprimé
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Inspection vitre par vitre à contre-jour, finition microfibre
-                  sur les bords si nécessaire. Validation avec le client avant
-                  facturation. Garantie satisfait ou refait.
+                  Soufflage air comprimé sur les zones humides, brossage de
+                  redressement des fibres. Remise en service en 1 à 2 h
+                  pour un canapé, 4 à 8 h pour une moquette.
                 </p>
               </li>
             </ol>
           </div>
         </section>
 
-        {/* SPECIFICITES LEMAN */}
+        {/* SPECIFICITES CHABLAIS / LEMAN */}
         <section className="bg-cream py-20">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
             <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
               <div>
                 <p className="font-display text-xs font-bold uppercase tracking-[0.22em] text-orange">
-                  Spécificités du Léman
+                  Spécificités du Chablais
                 </p>
                 <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                  Les vitres du Chablais salissent différemment
+                  Les textiles du Chablais souffrent différemment
                 </h2>
                 <p className="mt-5 text-base text-brown/75 md:text-lg">
-                  Quinze ans d&apos;intervention sur le bassin lémanique nous
-                  ont appris une chose : ici, les vitres ne se salissent pas
-                  comme ailleurs. Quatre facteurs locaux à connaître.
+                  Climat humide du Léman, vie en altitude, gastronomie
+                  savoyarde et compagnons à quatre pattes : les textiles
+                  d&apos;intérieur du Chablais accumulent des salissures
+                  bien spécifiques. Quatre points à connaître.
                 </p>
 
                 <ul className="mt-8 space-y-4 text-sm text-brown/85 md:text-base">
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Embruns lacustres et calcaire :</strong> les vents
-                      du Léman déposent un voile minéral blanc sur les vitres
-                      des rives. L&apos;eau osmosée est la seule technique qui
-                      l&apos;élimine sans rayer.
+                      <strong>Humidité ambiante :</strong> le climat humide
+                      du Chablais favorise le développement des acariens
+                      dans les matelas, canapés et moquettes. Un traitement
+                      vapeur 65 °C annuel est fortement recommandé.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Pollens d&apos;avril à juin :</strong> bouleaux,
-                      peupliers et graminées créent une pellicule jaune collante
-                      qui sèche au soleil. Nécessite un mouillage abondant avant
-                      raclage.
+                      <strong>Fibres naturelles de chalet :</strong> tapis
+                      berbères, kilims, tapis en laine épaisse de chalet
+                      d&apos;altitude. Fibres délicates qui exigent un pH
+                      neutre et un séchage maîtrisé.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Fientes de mouettes :</strong> en bord de lac
-                      (Thonon Rives, Yvoire, Évian) le risque d&apos;acidité
-                      sur le vitrage augmente. Intervention rapide
-                      recommandée.
+                      <strong>Taches courantes de la région :</strong> vin
+                      d&apos;Apremont, café, gras de raclette et fondue,
+                      chocolat fondu. Chaque tache a son détergent et son
+                      ordre de traitement.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Algues vertes sur vérandas :</strong> humidité
-                      ambiante du Chablais favorise les dépôts biologiques sur
-                      les toits verriers. Détergent biodégradable pour les
-                      retirer.
+                      <strong>Poils d&apos;animaux et randonnée :</strong>
+                      {" "}chiens de famille rentrant boueux, terre, brins
+                      d&apos;herbe et sève sur les canapés. Aspiration HEPA
+                      avant injection-extraction.
                     </span>
                   </li>
                 </ul>
@@ -486,144 +510,78 @@ export default function NettoyageVitresThononPage() {
           </div>
         </section>
 
-        {/* TARIFS */}
-        <section id="tarifs" className="bg-brown py-20 text-cream">
+        {/* PRESTATIONS TEXTILE */}
+        <section id="prestations" className="bg-brown py-20 text-cream">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
             <div className="max-w-3xl">
               <p className="font-display text-xs font-bold uppercase tracking-[0.22em] text-orange">
-                Tarifs transparents
+                Nos prestations textile
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-cream sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Abonnement pro à partir de 2,50 € HT par m²
+                Supports traités par GH Services
               </h2>
               <p className="mt-5 text-base text-cream/80 md:text-lg">
-                Trois formules d&apos;abonnement pour les commerces, vitrines
-                et locaux pros. Pour les particuliers, intervention ponctuelle
-                sur devis. Tous les tarifs sont indiqués en hors taxes.
+                Devis personnalisé sous 24 heures après envoi de photos ou
+                visite sur place. Le tarif dépend de la dimension, de la
+                fibre, du niveau d&apos;encrassement et du nombre de taches
+                à traiter.
               </p>
             </div>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-3">
-              <div className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/20">
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-green-700">
-                  Essentiel
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  5,00 € <span className="text-base font-medium text-brown/60">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-brown/60">1 passage par mois</p>
-                <ul className="mt-6 space-y-3 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Intérieur et extérieur
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Accès standard
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Sans engagement de durée
-                  </li>
-                </ul>
-              </div>
-
-              <div className="relative rounded-3xl bg-orange p-7 text-cream ring-2 ring-orange/40">
-                <span className="absolute -top-3 right-6 rounded-full bg-cream px-3 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-orange">
-                  Le plus choisi
-                </span>
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-cream/90">
-                  Confort
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  3,50 € <span className="text-base font-medium text-cream/80">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-cream/80">2 passages par mois</p>
-                <ul className="mt-6 space-y-3 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Priorité planning
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Résultat sans traces garanti
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Idéal pour vitrines fréquentées
-                  </li>
-                </ul>
-              </div>
-
-              <div className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/20">
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-orange">
-                  Premium
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  2,50 € <span className="text-base font-medium text-brown/60">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-brown/60">4 passages par mois (hebdomadaire)</p>
-                <ul className="mt-6 space-y-3 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Image impeccable toute l&apos;année
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Tarif le plus avantageux au m²
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Idéal commerces très exposés
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="mt-10 rounded-3xl bg-cream/10 p-7 ring-1 ring-cream/20 backdrop-blur-md md:flex md:items-center md:gap-8">
-              <div className="md:flex-1">
-                <p className="font-display text-xs font-bold uppercase tracking-wider text-cream/70">
-                  Exemple concret
-                </p>
-                <p className="mt-2 font-display text-2xl font-bold tracking-tight text-cream">
-                  Vitrine de magasin, 20 m², 1 passage par mois
-                </p>
-                <p className="mt-2 text-sm text-cream/80">
-                  Intérieur et extérieur, accès de plain-pied, résultat sans
-                  traces vérifié.
-                </p>
-              </div>
-              <div className="mt-4 inline-flex items-baseline gap-2 rounded-2xl bg-orange px-6 py-4 md:mt-0">
-                <span className="font-display text-4xl font-bold tracking-tight text-cream">
-                  50 €
-                </span>
-                <span className="text-sm font-medium text-cream/90">
-                  HT par intervention
-                </span>
-              </div>
+            <div className="mt-12 overflow-hidden rounded-3xl bg-cream ring-1 ring-cream/20">
+              <table className="w-full text-left text-sm text-brown">
+                <thead className="bg-cream-soft">
+                  <tr>
+                    <th
+                      scope="col"
+                      className="px-6 py-4 font-display text-xs font-bold uppercase tracking-wider text-brown"
+                    >
+                      Support
+                    </th>
+                    <th
+                      scope="col"
+                      className="px-6 py-4 font-display text-xs font-bold uppercase tracking-wider text-brown"
+                    >
+                      Méthode
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-brown/10">
+                  {SUPPORTS.map((s) => (
+                    <tr key={s.name}>
+                      <th
+                        scope="row"
+                        className="whitespace-nowrap px-6 py-4 font-display text-sm font-bold uppercase tracking-tight text-brown"
+                      >
+                        {s.name}
+                      </th>
+                      <td className="px-6 py-4 text-brown/75">{s.detail}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
 
             <div className="mt-8 grid gap-4 md:grid-cols-2">
               <div className="rounded-2xl bg-cream/5 p-6 ring-1 ring-cream/15">
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-cream">
-                  Particuliers : intervention ponctuelle
+                  Devis personnalisé sous 24 h après photos
                 </h3>
                 <p className="mt-2 text-sm text-cream/80">
-                  Devis personnalisé sur place ou par photos. Pour une maison
-                  individuelle, comptez en moyenne 80 à 180 € selon surface et
-                  hauteur. Possibilité d&apos;abonnement saisonnier
-                  (printemps/automne).
+                  Envoyez-nous 2 ou 3 photos de chaque support à traiter
+                  par e-mail ou WhatsApp. Réponse chiffrée détaillée sous
+                  24 heures ouvrées, sans engagement.
                 </p>
               </div>
               <div className="rounded-2xl bg-cream/5 p-6 ring-1 ring-cream/15">
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-cream">
-                  Crédit d&apos;impôt 50 %
+                  Crédit d&apos;impôt 50 % à domicile
                 </h3>
                 <p className="mt-2 text-sm text-cream/80">
-                  Pour les particuliers à domicile, nos prestations entrent
-                  dans le cadre des services à la personne agréés. Vous
-                  récupérez 50 % de la facture sous forme de crédit
-                  d&apos;impôt, attestation fournie en fin d&apos;année.
+                  Le nettoyage de textiles à domicile entre dans le cadre
+                  des services à la personne agréés. Particuliers : 50 % du
+                  montant TTC remboursé en crédit d&apos;impôt, attestation
+                  fournie automatiquement.
                 </p>
               </div>
             </div>
@@ -641,7 +599,7 @@ export default function NettoyageVitresThononPage() {
                 Tout le Chablais et la rive sud du Léman
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Notre équipe se déplace dans tout le bassin lémanique français,
+                Nous nous déplaçons sur tout le bassin lémanique français,
                 de Genève à Saint-Gingolph. Frais de déplacement offerts
                 jusqu&apos;à 25 km autour de Thonon-les-Bains.
               </p>
@@ -731,7 +689,10 @@ export default function NettoyageVitresThononPage() {
 
             <div className="mt-10 divide-y divide-brown/10 rounded-3xl bg-cream-soft ring-1 ring-brown/10">
               {FAQ.map((item) => (
-                <details key={item.q} className="group p-6 [&_summary::-webkit-details-marker]:hidden">
+                <details
+                  key={item.q}
+                  className="group p-6 [&_summary::-webkit-details-marker]:hidden"
+                >
                   <summary className="flex cursor-pointer items-start justify-between gap-4 text-left font-display text-base font-bold text-brown">
                     {item.q}
                     <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-orange text-cream transition-transform group-open:rotate-45">
@@ -759,27 +720,15 @@ export default function NettoyageVitresThononPage() {
 
             <div className="mt-8 grid gap-5 md:grid-cols-3">
               <Link
-                href="/fin-de-chantier-thonon"
+                href="/menage-thonon-les-bains"
                 className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
               >
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
-                  Nettoyage fin de chantier
+                  Ménage à domicile
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Remise à neuf après travaux, dépoussiérage profond, retrait
-                  des résidus de peinture sur les vitres.
-                </p>
-              </Link>
-              <Link
-                href="/nettoyage-coproprietes-thonon"
-                className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
-              >
-                <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
-                  Nettoyage copropriétés
-                </h3>
-                <p className="mt-2 text-sm text-brown/70">
-                  Parties communes, halls vitrés, cages d&apos;escalier,
-                  contrats syndic adaptés au volume.
+                  Entretien régulier de votre logement à Thonon, du
+                  ponctuel à l&apos;hebdomadaire, crédit d&apos;impôt 50 %.
                 </p>
               </Link>
               <Link
@@ -790,8 +739,20 @@ export default function NettoyageVitresThononPage() {
                   Nettoyage état des lieux sortant
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Préparation à la remise des clés, vitres incluses, pour
-                  récupérer 100 % de votre caution.
+                  Préparation à la remise des clés, moquette et canapés
+                  inclus, pour récupérer 100 % de votre caution.
+                </p>
+              </Link>
+              <Link
+                href="/fin-de-chantier-thonon"
+                className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
+              >
+                <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
+                  Nettoyage fin de chantier
+                </h3>
+                <p className="mt-2 text-sm text-brown/70">
+                  Remise à neuf après travaux, dépoussiérage profond,
+                  retrait des résidus de peinture et plâtre.
                 </p>
               </Link>
             </div>
@@ -808,12 +769,13 @@ export default function NettoyageVitresThononPage() {
                     Devis sous 24 h
                   </p>
                   <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                    Recevez votre devis nettoyage de vitres
+                    Recevez votre devis nettoyage textiles
                   </h2>
                   <p className="mt-5 text-base text-brown/75 md:text-lg">
-                    Décrivez-nous votre besoin (surface vitrée, type de
-                    bâtiment, fréquence souhaitée). Réponse chiffrée sous 24
-                    heures ouvrées.
+                    Décrivez-nous votre besoin (canapé, tapis, matelas,
+                    moquette, dimensions, type de taches). Joignez 2 ou 3
+                    photos si possible. Réponse chiffrée sous 24 heures
+                    ouvrées.
                   </p>
                 </div>
 
@@ -842,14 +804,15 @@ export default function NettoyageVitresThononPage() {
                 <div className="rounded-2xl border border-red-300 bg-red-50 px-5 py-4 text-xs leading-relaxed text-red-900">
                   <span aria-hidden>⚠️ </span>
                   <strong>Aucun recrutement en cours.</strong>{" "}
-                  Merci de ne pas téléphoner ni envoyer d&apos;e-mail pour une
-                  candidature, les demandes spontanées ne sont pas traitées.
+                  Merci de ne pas téléphoner ni envoyer d&apos;e-mail pour
+                  une candidature, les demandes spontanées ne sont pas
+                  traitées.
                 </div>
               </aside>
 
               <ServiceQuoteForm
-                serviceLabel="Nettoyage de vitres"
-                source="vitres_thonon"
+                serviceLabel="Nettoyage textiles"
+                source="textiles_thonon"
               />
             </div>
           </div>

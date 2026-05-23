@@ -15,27 +15,26 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title:
-    "Nettoyage de vitres à Thonon-les-Bains : eau osmosée, sans traces",
+  title: "Petite maçonnerie à Thonon-les-Bains",
   description:
-    "Lavage de vitres pro à Thonon, Évian et Léman. Eau osmosée, perche carbone, sans traces. Particuliers, copropriétés, vérandas, commerces. Devis 24h.",
+    "Réparation fissure, muret, dalle béton, scellement à Thonon. Petits travaux uniquement, pas de gros œuvre. Devis 24 h, garantie 2 ans.",
   alternates: {
-    canonical: `${SITE_URL}/nettoyage-vitres-thonon`,
+    canonical: `${SITE_URL}/petite-maconnerie-thonon`,
   },
   openGraph: {
-    title: "Nettoyage de vitres à Thonon-les-Bains",
+    title: "Petite maçonnerie à Thonon-les-Bains",
     description:
-      "Lavage de vitres pro à Thonon, Évian et Léman. Eau osmosée, perche carbone, sans traces. Particuliers, copropriétés, vérandas, commerces.",
-    url: `${SITE_URL}/nettoyage-vitres-thonon`,
+      "Réparation fissure, scellement, muret, dalle béton, chape, jointoiement pierre à Thonon et dans le Chablais. Petits travaux uniquement, pas de gros œuvre. Devis sous 24 heures.",
+    url: `${SITE_URL}/petite-maconnerie-thonon`,
     type: "website",
     locale: "fr_FR",
     siteName: "GH Services",
     images: [
       {
-        url: "/photos/service-vitres.jpg",
+        url: "/photos/service-maconnerie.jpg",
         width: 1600,
         height: 900,
-        alt: "Laveurs de vitres professionnels à Thonon-les-Bains",
+        alt: "Maçon GH Services en intervention de petite maçonnerie à Thonon-les-Bains",
       },
     ],
   },
@@ -43,28 +42,28 @@ export const metadata: Metadata = {
 
 const PERSONAS = [
   {
-    title: "Particuliers",
-    desc: "Vitres de maison, baies vitrées, fenêtres de toit Velux. Crédit d'impôt 50 % pour les services à domicile.",
+    title: "Particuliers, maison individuelle",
+    desc: "Reprise de fissure sur mur de clôture, scellement de boîte aux lettres, pose de dalles d'extérieur, aménagement d'entrée de garage. Petits travaux maçonnés autour de la maison.",
   },
   {
-    title: "Copropriétés et syndics",
-    desc: "Parties communes, halls vitrés, garde-corps verre, vitres d'immeubles à Thonon, Évian et Annemasse.",
+    title: "Copropriétés, petite réparation",
+    desc: "Reprise d'enduit local, scellement de garde-corps, jointoiement d'un muret commun, remplacement d'un regard d'eaux usées. Intervention rapide validée par le syndic.",
   },
   {
-    title: "Vérandas et verrières",
-    desc: "Toits verriers, parois verticales, structures aluminium. Traitement spécifique des algues et dépôts verts du Chablais.",
+    title: "Agents immobiliers, avant vente",
+    desc: "Petits points à reprendre avant signature : fissure visible, dalle béton à reboucher, muret à rejointoyer. Devis et délai courts pour ne pas retarder la transaction.",
   },
   {
-    title: "Résidences secondaires et chalets",
-    desc: "Entretien régulier ou avant arrivée, rives du Léman, Yvoire, Saint-Gingolph, secteur frontalier de Genève.",
+    title: "Syndics, petites interventions",
+    desc: "Demandes ponctuelles d'immeubles : reprise d'un jointoiement pierre, scellement d'un boîtier, réfection d'une marche béton, regard à ressceller. Facturation claire au syndic.",
   },
   {
-    title: "Commerces et vitrines",
-    desc: "Magasins, restaurants, agences. Formules d'abonnement à partir de 2,50 € HT par m² (passage hebdomadaire).",
+    title: "Commerces, vitrines abîmées",
+    desc: "Reprise d'un seuil béton, scellement d'une enseigne, remise en état de l'entrée client après choc. Interventions en horaires décalés possibles pour ne pas gêner l'exploitation.",
   },
   {
-    title: "Bureaux et locaux pros",
-    desc: "Façades vitrées, cloisons internes, baies bureau. Intervention en horaires décalés possible.",
+    title: "Locataires, post état des lieux",
+    desc: "Petits reboucharges, reprise de fissure et jointoiement avant remise des clés pour récupérer la caution. Devis chiffré accepté par la majorité des bailleurs.",
   },
 ];
 
@@ -88,36 +87,36 @@ const ZONES = [
 
 const FAQ = [
   {
-    q: "À quelle fréquence faut-il nettoyer ses vitres à Thonon ?",
-    a: "Sur le bassin lémanique, comptez 2 à 4 passages par an pour des vitres résidentielles, 1 passage par mois pour une vitrine commerciale, et un nettoyage hebdomadaire pour les bureaux exposés à la pollution routière. Les vitres exposées au lac (embruns) ou aux pollens d'avril à juin se salissent plus vite.",
+    q: "Vous faites du gros œuvre ?",
+    a: "Non. GH Services fait uniquement de la petite maçonnerie : reprise de fissure, scellement, muret bas, dalle béton, chape, jointoiement, pose de dalles extérieures, regards. Nous ne réalisons pas de construction neuve, de fondations, de dalle porteuse, d'agrandissement, de mur de soutènement structurel ni de ravalement de façade complet. Pour ces chantiers, nous vous orientons vers une entreprise de gros œuvre du Chablais.",
   },
   {
-    q: "Vous nettoyez les vitres en hauteur ?",
-    a: "Oui. Nous travaillons à la perche télescopique en fibre de carbone alimentée en eau osmosée jusqu'à 12 mètres, sans nacelle ni échafaudage. Au-delà, nous mobilisons une nacelle ou un cordiste selon la configuration. Tous nos intervenants sont formés au travail en hauteur et équipés EPI.",
+    q: "Combien coûte la réparation d'une fissure ?",
+    a: "Le tarif dépend de la longueur, de la profondeur et du support (parpaing, brique, pierre, enduit). Sur fissure superficielle d'enduit, le travail est rapide. Sur fissure traversante ou maçonnerie ancienne en pierre du Léman, il faut purger, traiter et reprendre. Nous établissons un devis personnalisé sous 24 h après visite ou photos.",
   },
   {
-    q: "Pourquoi utilisez-vous de l'eau osmosée ?",
-    a: "L'eau osmosée (eau pure, sans calcaire ni minéraux) sèche sans laisser la moindre trace. C'est la méthode pro qui remplace la raclette traditionnelle sur les surfaces difficiles d'accès. Sur le Léman, où l'eau du robinet est calcaire, c'est indispensable pour un résultat irréprochable.",
+    q: "Avez-vous une assurance décennale ?",
+    a: "Oui. GH Services est assuré en responsabilité civile professionnelle et en garantie décennale pour les travaux de maçonnerie réalisés dans le cadre de notre activité de petite maçonnerie. Une attestation à jour est fournie sur simple demande avant la signature du devis.",
   },
   {
-    q: "Le mauvais temps annule l'intervention ?",
-    a: "Non, contrairement à ce qu'on imagine, la pluie n'altère pas la qualité d'un lavage à l'eau osmosée. Seul le vent fort ou le gel suspendent l'intervention pour des raisons de sécurité. Vous êtes prévenu la veille et la prestation est reportée gratuitement.",
+    q: "Combien de temps pour une dalle béton ?",
+    a: "Pour une dalle béton de terrasse classique (15 à 25 m²), comptez 1 à 2 jours de mise en œuvre selon la préparation du sol. Le temps de séchage avant utilisation normale est de 28 jours. Une circulation piétonne légère est possible après 7 jours. Nous calons toujours le planning sur la météo, indispensable en Chablais.",
   },
   {
-    q: "Combien de temps tiennent les vitres propres après votre passage ?",
-    a: "En extérieur, comptez environ 4 à 8 semaines selon l'exposition. En intérieur, plusieurs mois sans entretien. Une vitrine commerciale en bordure de route restera nette environ 2 à 3 semaines, d'où nos formules d'abonnement.",
+    q: "Vous intervenez en copropriété ?",
+    a: "Oui, pour les petites interventions ponctuelles validées par le syndic ou le conseil syndical : scellement, reprise d'enduit, jointoiement d'un muret commun, remplacement d'un regard. Devis adressé directement au syndic, facturation au nom de la copropriété, intervention coordonnée avec le gardien.",
   },
   {
-    q: "Vos produits sont écologiques ?",
-    a: "Oui. Pour les vitres simples nous travaillons uniquement à l'eau osmosée, sans détergent. Quand un détergent est nécessaire (graisse cuisine, traces de pollution), nous utilisons des produits biodégradables, sans solvant. Aucun rejet polluant pour le bassin du Léman.",
+    q: "Faut-il une déclaration en mairie ?",
+    a: "Cela dépend du chantier. Un muret de moins de 2 m de hauteur, une dalle béton non visible depuis la voie publique ou une simple réparation ne nécessitent généralement pas de déclaration. À partir de certaines surfaces ou hauteurs, une déclaration préalable de travaux est requise. Nous vous indiquons les démarches lors du devis.",
   },
   {
-    q: "Quelle est la durée d'une intervention type ?",
-    a: "Pour un appartement T3 (environ 30 m² de surface vitrée intérieure + extérieure), comptez 1h30 à 2h. Une vitrine commerciale de 20 m² prend 45 minutes. Une véranda de 25 m² environ 2h. Nous communiquons une fenêtre horaire précise lors du devis.",
+    q: "Garantie sur vos travaux ?",
+    a: "Toutes nos interventions de petite maçonnerie sont garanties 2 ans sur la prestation (tenue de la réparation, du scellement, du jointoiement). Les ouvrages relevant de la décennale sont couverts par notre assurance professionnelle. En cas de désordre, nous intervenons rapidement, sans frais supplémentaires dans le cadre de la garantie.",
   },
   {
-    q: "Comment se passe le paiement ?",
-    a: "Devis gratuit sous 24h, validation par e-mail, intervention planifiée, facture après réalisation. Paiement par virement, chèque ou CB. Pour les particuliers, attestation de crédit d'impôt fournie automatiquement (50 % de réduction sur services à la personne).",
+    q: "Délai pour obtenir un devis ?",
+    a: "Devis personnalisé sous 24 heures ouvrées après réception de votre demande, par e-mail ou téléphone. Pour les chantiers nécessitant une visite (muret, dalle, reprise complexe), nous fixons un rendez-vous sous 48 à 72 heures dans le secteur de Thonon-les-Bains et du Chablais.",
   },
 ];
 
@@ -136,32 +135,29 @@ const TESTIMONIALS = [
   {
     author: "Genève Expat",
     date: "Mai 2025",
-    body: "Nous avons fait appel aux services de nettoyage de GH Services à notre entière satisfaction. Il s'agissait du nettoyage de notre maison avant remise des clés.",
+    body: "Nous avons fait appel aux services de nettoyage de GH Services à notre entière satisfaction.",
   },
 ];
 
 const SERVICE_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "Service",
-  "@id": `${SITE_URL}/nettoyage-vitres-thonon#service`,
-  name: "Nettoyage de vitres à Thonon-les-Bains",
-  serviceType: "Nettoyage de vitres",
+  "@id": `${SITE_URL}/petite-maconnerie-thonon#service`,
+  name: "Petite maçonnerie et réparations",
+  serviceType: "Petite maçonnerie",
   description:
-    "Lavage de vitres professionnel à l'eau osmosée et à la perche fibre de carbone. Particuliers, copropriétés, vérandas, commerces sur Thonon, Évian, Annemasse et tout le Chablais lémanique.",
-  url: `${SITE_URL}/nettoyage-vitres-thonon`,
+    "Petits travaux de maçonnerie à Thonon-les-Bains et dans le Chablais : reprise de fissure de mur, scellement, construction de muret, dalle béton terrasse, chape ciment, jointoiement pierre, pose de dalles extérieures, regards. Pas de gros œuvre ni de construction neuve. Devis personnalisé sous 24 h, garantie 2 ans.",
+  url: `${SITE_URL}/petite-maconnerie-thonon`,
   provider: { "@id": `${SITE_URL}/#localbusiness` },
   areaServed: ZONES.map((c) => ({ "@type": "City", name: c })),
   offers: {
-    "@type": "AggregateOffer",
+    "@type": "Offer",
     priceCurrency: "EUR",
-    lowPrice: "2.50",
-    highPrice: "5.00",
+    availability: "https://schema.org/InStock",
     priceSpecification: {
-      "@type": "UnitPriceSpecification",
-      priceType: "https://schema.org/MinimumPrice",
-      price: "2.50",
+      "@type": "PriceSpecification",
       priceCurrency: "EUR",
-      unitText: "m² par passage",
+      description: "Devis personnalisé sous 24 heures",
     },
   },
   aggregateRating: {
@@ -176,7 +172,7 @@ const SERVICE_SCHEMA = {
 const FAQ_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": `${SITE_URL}/nettoyage-vitres-thonon#faq`,
+  "@id": `${SITE_URL}/petite-maconnerie-thonon#faq`,
   mainEntity: FAQ.map((item) => ({
     "@type": "Question",
     name: item.q,
@@ -192,13 +188,13 @@ const BREADCRUMB_SCHEMA = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Nettoyage de vitres à Thonon",
-      item: `${SITE_URL}/nettoyage-vitres-thonon`,
+      name: "Petite maçonnerie à Thonon",
+      item: `${SITE_URL}/petite-maconnerie-thonon`,
     },
   ],
 };
 
-export default function NettoyageVitresThononPage() {
+export default function PetiteMaconnerieThononPage() {
   return (
     <>
       <script
@@ -227,7 +223,7 @@ export default function NettoyageVitresThononPage() {
               Accueil
             </Link>
             <span className="mx-2 text-brown/30">/</span>
-            <span className="text-brown/75">Nettoyage de vitres à Thonon</span>
+            <span className="text-brown/75">Petite maçonnerie à Thonon</span>
           </div>
         </nav>
 
@@ -235,8 +231,8 @@ export default function NettoyageVitresThononPage() {
         <section className="relative isolate overflow-hidden bg-brown pb-20 pt-12 text-cream md:pb-28 md:pt-16">
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/photos/service-vitres.jpg"
-              alt="Laveurs de vitres en intervention sur une façade vitrée à Thonon-les-Bains"
+              src="/photos/service-maconnerie.jpg"
+              alt="Maçon GH Services en intervention de petite maçonnerie à Thonon-les-Bains"
               fill
               priority
               sizes="100vw"
@@ -259,16 +255,19 @@ export default function NettoyageVitresThononPage() {
             </div>
 
             <h1 className="mt-6 max-w-3xl font-display text-[36px] leading-[1.05] font-bold tracking-tight uppercase text-cream sm:text-[48px] md:text-[64px]">
-              Nettoyage de vitres à{" "}
+              Petite maçonnerie à{" "}
               <span className="text-orange">Thonon-les-Bains</span>
             </h1>
 
             <p className="mt-6 max-w-2xl text-base text-cream/95 sm:text-lg">
-              Lavage de vitres professionnel à l&apos;eau osmosée et à la perche
-              fibre de carbone, sans la moindre trace. Particuliers,
-              copropriétés, vérandas, vitrines de commerce et bureaux pros sur
-              Thonon, Évian, Annemasse et tout le Chablais lémanique. Devis
-              gratuit sous 24 heures.
+              Maçon de proximité à Thonon, GH Services s&apos;occupe des petits
+              travaux de maçonnerie autour de votre maison ou de votre local :
+              réparation de fissure de mur, scellement de boîte aux lettres,
+              muret bas, dalle béton de terrasse, chape ciment, jointoiement
+              pierre, pose de dalles extérieures, aménagement d&apos;entrée de
+              garage. Pas de gros œuvre, uniquement les interventions ciblées
+              que les grandes entreprises refusent. Devis personnalisé sous
+              24 heures.
             </p>
 
             <div className="mt-8 flex flex-wrap items-center gap-4">
@@ -291,15 +290,15 @@ export default function NettoyageVitresThononPage() {
             <ul className="mt-10 flex flex-wrap gap-x-7 gap-y-3 text-sm font-medium text-cream/90">
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Eau osmosée, sans calcaire
+                Petits travaux seulement
               </li>
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Perche fibre carbone jusqu&apos;à 12 m
+                Garantie 2 ans sur intervention
               </li>
               <li className="inline-flex items-center gap-2">
                 <span className="h-1.5 w-1.5 rounded-full bg-orange" />
-                Crédit d&apos;impôt 50 % particuliers
+                Assurance RC pro à jour
               </li>
             </ul>
           </div>
@@ -313,13 +312,13 @@ export default function NettoyageVitresThononPage() {
                 Pour qui
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Particuliers, syndics, commerces, hôteliers
+                Particuliers, syndics, agents immobiliers, commerces
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Nous intervenons pour tout type de surface vitrée : vitres
-                simples, double vitrage, baies vitrées, vérandas, verrières,
-                fenêtres de toit Velux, garde-corps en verre, vitrines
-                commerciales et façades d&apos;immeubles.
+                Le créneau du maçon de proximité : les petits travaux que les
+                entreprises de gros œuvre du Chablais ne veulent plus prendre
+                en charge. Réparation rapide, scellement soigné, finition
+                propre, intervention courte.
               </p>
             </div>
 
@@ -349,13 +348,12 @@ export default function NettoyageVitresThononPage() {
                 Notre méthode
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Eau osmosée et perche fibre de carbone, zéro trace
+                Visite, devis chiffré, réalisation soignée, garantie 2 ans
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
-                Nous utilisons les techniques professionnelles modernes du
-                lavage de vitres, abandonnées par les laveurs amateurs et la
-                grande distribution. Résultat irréprochable sur double vitrage,
-                vitre teintée, miroir et véranda.
+                Une méthode simple et transparente, adaptée aux petits
+                chantiers. Pas de surprise sur la facture, pas de promesses sur
+                des prestations que nous ne réalisons pas.
               </p>
             </div>
 
@@ -365,12 +363,13 @@ export default function NettoyageVitresThononPage() {
                   Étape 1
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Diagnostic
+                  Visite et chiffrage
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Visite sur place ou par photos, mesure des surfaces vitrées,
-                  identification des contraintes (hauteur, accès, type de
-                  vitrage) et devis chiffré sous 24 heures.
+                  Visite sur place ou évaluation par photos : nature du
+                  support, accès, contraintes (copropriété, voie publique).
+                  Si le chantier relève du gros œuvre, nous le disons tout de
+                  suite.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -378,12 +377,12 @@ export default function NettoyageVitresThononPage() {
                   Étape 2
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Préparation
+                  Devis avec délai
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Protection des sols et joints, dépoussiérage des cadres,
-                  retrait des dépôts grossiers (fientes, sève, autocollants).
-                  EPI et balisage pour les interventions en hauteur.
+                  Devis personnalisé sous 24 heures ouvrées, ligne par ligne,
+                  avec délai d&apos;intervention chiffré. Vous validez par
+                  e-mail, nous bloquons une date ferme dans le planning.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -391,12 +390,12 @@ export default function NettoyageVitresThononPage() {
                   Étape 3
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Lavage pro
+                  Réalisation soignée
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Mouilleur professionnel, raclette Unger ou Ettore au sol.
-                  Perche télescopique fibre de carbone alimentée en eau osmosée
-                  pour les hauteurs jusqu&apos;à 12 m, sans nacelle.
+                  Protection des sols et abords, préparation du support,
+                  mortier dosé selon l&apos;usage, finition propre. Évacuation
+                  des gravats incluse, chantier laissé net en fin de journée.
                 </p>
               </li>
               <li className="rounded-3xl bg-cream p-7 ring-1 ring-brown/10">
@@ -404,70 +403,76 @@ export default function NettoyageVitresThononPage() {
                   Étape 4
                 </span>
                 <h3 className="mt-2 font-display text-lg font-bold uppercase tracking-tight text-brown">
-                  Contrôle qualité
+                  Garantie 2 ans sur intervention
                 </h3>
                 <p className="mt-3 text-sm leading-6 text-brown/75">
-                  Inspection vitre par vitre à contre-jour, finition microfibre
-                  sur les bords si nécessaire. Validation avec le client avant
-                  facturation. Garantie satisfait ou refait.
+                  Réception du chantier avec le client, photos avant/après,
+                  facture détaillée. Garantie de 2 ans sur la tenue de la
+                  prestation et couverture décennale pour les ouvrages
+                  concernés.
                 </p>
               </li>
             </ol>
           </div>
         </section>
 
-        {/* SPECIFICITES LEMAN */}
+        {/* SPECIFICITES CHABLAIS / LEMAN */}
         <section className="bg-cream py-20">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
             <div className="grid gap-12 lg:grid-cols-[1.1fr_1fr] lg:items-center">
               <div>
                 <p className="font-display text-xs font-bold uppercase tracking-[0.22em] text-orange">
-                  Spécificités du Léman
+                  Spécificités Chablais et Léman
                 </p>
                 <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                  Les vitres du Chablais salissent différemment
+                  La maçonnerie ne se traite pas pareil au bord du Léman
                 </h2>
                 <p className="mt-5 text-base text-brown/75 md:text-lg">
-                  Quinze ans d&apos;intervention sur le bassin lémanique nous
-                  ont appris une chose : ici, les vitres ne se salissent pas
-                  comme ailleurs. Quatre facteurs locaux à connaître.
+                  Le bâti ancien des rives du Léman, les hivers humides du
+                  Chablais et la proximité du lac imposent des choix
+                  techniques précis. Quatre points à connaître avant
+                  d&apos;intervenir.
                 </p>
 
                 <ul className="mt-8 space-y-4 text-sm text-brown/85 md:text-base">
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Embruns lacustres et calcaire :</strong> les vents
-                      du Léman déposent un voile minéral blanc sur les vitres
-                      des rives. L&apos;eau osmosée est la seule technique qui
-                      l&apos;élimine sans rayer.
+                      <strong>Fissures sur bâti ancien :</strong> les
+                      maisons en pierre des rives du Léman bougent avec les
+                      mouvements de terrain. Une fissure se traite après
+                      diagnostic d&apos;origine, en respectant la respiration
+                      du mur.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Pollens d&apos;avril à juin :</strong> bouleaux,
-                      peupliers et graminées créent une pellicule jaune collante
-                      qui sèche au soleil. Nécessite un mouillage abondant avant
-                      raclage.
+                      <strong>Joints pierre traditionnels :</strong> à Yvoire,
+                      Évian ou Saint-Gingolph, le jointoiement se fait à la
+                      chaux et au sable local, pas au ciment moderne, pour
+                      respecter l&apos;esthétique et la perméance du mur en
+                      pierre.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Fientes de mouettes :</strong> en bord de lac
-                      (Thonon Rives, Yvoire, Évian) le risque d&apos;acidité
-                      sur le vitrage augmente. Intervention rapide
-                      recommandée.
+                      <strong>Cycles gel-dégel hivernaux :</strong> les
+                      terrasses, dalles béton et chapes du Chablais subissent
+                      des cycles gel-dégel sévères. Le dosage du mortier et la
+                      formulation du béton doivent en tenir compte pour
+                      éviter l&apos;éclatement.
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckIcon className="mt-1 h-4 w-4 shrink-0 text-orange" />
                     <span>
-                      <strong>Algues vertes sur vérandas :</strong> humidité
-                      ambiante du Chablais favorise les dépôts biologiques sur
-                      les toits verriers. Détergent biodégradable pour les
-                      retirer.
+                      <strong>Traitement hydrofuge en bord de lac :</strong>
+                      l&apos;humidité ambiante près du Léman pénètre les
+                      supports poreux. Un traitement hydrofuge de finition
+                      est requis sur murets, dalles et joints exposés pour
+                      préserver l&apos;ouvrage.
                     </span>
                   </li>
                 </ul>
@@ -486,146 +491,140 @@ export default function NettoyageVitresThononPage() {
           </div>
         </section>
 
-        {/* TARIFS */}
+        {/* INTERVENTIONS TYPES ET DEVIS */}
         <section id="tarifs" className="bg-brown py-20 text-cream">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">
             <div className="max-w-3xl">
               <p className="font-display text-xs font-bold uppercase tracking-[0.22em] text-orange">
-                Tarifs transparents
+                Nos interventions types et devis
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-cream sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Abonnement pro à partir de 2,50 € HT par m²
+                Ce que nous prenons en charge, ce que nous ne faisons pas
               </h2>
               <p className="mt-5 text-base text-cream/80 md:text-lg">
-                Trois formules d&apos;abonnement pour les commerces, vitrines
-                et locaux pros. Pour les particuliers, intervention ponctuelle
-                sur devis. Tous les tarifs sont indiqués en hors taxes.
+                Nous travaillons le créneau des petits travaux de maçonnerie.
+                Pour le gros œuvre, la construction neuve ou un ravalement de
+                façade complet, nous ne sommes pas la bonne adresse, et nous
+                préférons vous le dire avant le devis.
               </p>
             </div>
 
-            <div className="mt-12 grid gap-6 md:grid-cols-3">
+            <div className="mt-12 grid gap-6 md:grid-cols-2">
               <div className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/20">
                 <span className="font-display text-xs font-bold uppercase tracking-wider text-green-700">
-                  Essentiel
+                  Couvert par GH Services
                 </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  5,00 € <span className="text-base font-medium text-brown/60">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-brown/60">1 passage par mois</p>
-                <ul className="mt-6 space-y-3 text-sm">
+                <h3 className="mt-3 font-display text-xl font-bold uppercase tracking-tight">
+                  Petite maçonnerie
+                </h3>
+                <ul className="mt-5 space-y-3 text-sm leading-6">
                   <li className="flex items-start gap-2">
                     <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Intérieur et extérieur
+                    Reprise de fissure de mur (enduit, parpaing, pierre)
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Accès standard
+                    Scellement de boîte aux lettres, poteau, garde-corps,
+                    enseigne
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Sans engagement de durée
+                    Construction de muret bas (clôture, jardinière, séparation)
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    Dalle béton de terrasse, dalle d&apos;abri de jardin
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    Chape ciment lissée ou de ragréage
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    Jointoiement de mur en pierre (chaux, sable local)
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    Reprise d&apos;enduit de façade localisé
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    Pose de dalles d&apos;extérieur (terrasse, allée)
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    Aménagement d&apos;entrée de garage (seuil, bordure)
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
+                    Pose ou remplacement de regard d&apos;eaux usées
                   </li>
                 </ul>
               </div>
 
-              <div className="relative rounded-3xl bg-orange p-7 text-cream ring-2 ring-orange/40">
-                <span className="absolute -top-3 right-6 rounded-full bg-cream px-3 py-1 font-display text-[10px] font-bold uppercase tracking-wider text-orange">
-                  Le plus choisi
+              <div className="rounded-3xl bg-cream/5 p-7 text-cream ring-1 ring-cream/20">
+                <span className="font-display text-xs font-bold uppercase tracking-wider text-cream/70">
+                  Non couvert
                 </span>
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-cream/90">
-                  Confort
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  3,50 € <span className="text-base font-medium text-cream/80">HT/m²/passage</span>
-                </p>
-                <p className="mt-1 text-sm text-cream/80">2 passages par mois</p>
-                <ul className="mt-6 space-y-3 text-sm">
+                <h3 className="mt-3 font-display text-xl font-bold uppercase tracking-tight">
+                  Gros œuvre et construction neuve
+                </h3>
+                <ul className="mt-5 space-y-3 text-sm leading-6 text-cream/85">
                   <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Priorité planning
+                    <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-orange" />
+                    Construction neuve d&apos;une maison ou d&apos;une
+                    extension
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Résultat sans traces garanti
+                    <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-orange" />
+                    Fondations, dalles porteuses, planchers structurels
                   </li>
                   <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-cream" />
-                    Idéal pour vitrines fréquentées
+                    <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-orange" />
+                    Murs de soutènement structurels, reprise en sous-œuvre
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-orange" />
+                    Ravalement de façade complet d&apos;une maison
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-orange" />
+                    Agrandissement, surélévation, ouverture porteuse
+                  </li>
+                  <li className="flex items-start gap-2">
+                    <span className="mt-1 h-1.5 w-1.5 shrink-0 rounded-full bg-orange" />
+                    Démolition lourde, gros terrassement
                   </li>
                 </ul>
-              </div>
-
-              <div className="rounded-3xl bg-cream p-7 text-brown ring-1 ring-cream/20">
-                <span className="font-display text-xs font-bold uppercase tracking-wider text-orange">
-                  Premium
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold tracking-tight">
-                  2,50 € <span className="text-base font-medium text-brown/60">HT/m²/passage</span>
+                <p className="mt-5 text-xs leading-6 text-cream/70">
+                  Pour ces chantiers, nous vous orientons vers une entreprise
+                  de gros œuvre du Chablais. Pas de mauvaise surprise sur le
+                  devis ni sur la décennale.
                 </p>
-                <p className="mt-1 text-sm text-brown/60">4 passages par mois (hebdomadaire)</p>
-                <ul className="mt-6 space-y-3 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Image impeccable toute l&apos;année
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Tarif le plus avantageux au m²
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckIcon className="mt-0.5 h-4 w-4 shrink-0 text-orange" />
-                    Idéal commerces très exposés
-                  </li>
-                </ul>
               </div>
             </div>
 
             <div className="mt-10 rounded-3xl bg-cream/10 p-7 ring-1 ring-cream/20 backdrop-blur-md md:flex md:items-center md:gap-8">
               <div className="md:flex-1">
                 <p className="font-display text-xs font-bold uppercase tracking-wider text-cream/70">
-                  Exemple concret
+                  Tarification
                 </p>
                 <p className="mt-2 font-display text-2xl font-bold tracking-tight text-cream">
-                  Vitrine de magasin, 20 m², 1 passage par mois
+                  Devis personnalisé sous 24 h, garantie 2 ans sur
+                  l&apos;intervention
                 </p>
                 <p className="mt-2 text-sm text-cream/80">
-                  Intérieur et extérieur, accès de plain-pied, résultat sans
-                  traces vérifié.
+                  Chaque chantier est unique : support, accès, finition
+                  attendue. Nous établissons un devis détaillé, ligne par
+                  ligne, sans engagement.
                 </p>
               </div>
-              <div className="mt-4 inline-flex items-baseline gap-2 rounded-2xl bg-orange px-6 py-4 md:mt-0">
-                <span className="font-display text-4xl font-bold tracking-tight text-cream">
-                  50 €
-                </span>
-                <span className="text-sm font-medium text-cream/90">
-                  HT par intervention
-                </span>
-              </div>
-            </div>
-
-            <div className="mt-8 grid gap-4 md:grid-cols-2">
-              <div className="rounded-2xl bg-cream/5 p-6 ring-1 ring-cream/15">
-                <h3 className="font-display text-base font-bold uppercase tracking-tight text-cream">
-                  Particuliers : intervention ponctuelle
-                </h3>
-                <p className="mt-2 text-sm text-cream/80">
-                  Devis personnalisé sur place ou par photos. Pour une maison
-                  individuelle, comptez en moyenne 80 à 180 € selon surface et
-                  hauteur. Possibilité d&apos;abonnement saisonnier
-                  (printemps/automne).
-                </p>
-              </div>
-              <div className="rounded-2xl bg-cream/5 p-6 ring-1 ring-cream/15">
-                <h3 className="font-display text-base font-bold uppercase tracking-tight text-cream">
-                  Crédit d&apos;impôt 50 %
-                </h3>
-                <p className="mt-2 text-sm text-cream/80">
-                  Pour les particuliers à domicile, nos prestations entrent
-                  dans le cadre des services à la personne agréés. Vous
-                  récupérez 50 % de la facture sous forme de crédit
-                  d&apos;impôt, attestation fournie en fin d&apos;année.
-                </p>
-              </div>
+              <a
+                href="#devis"
+                className="mt-4 inline-flex items-center rounded-full bg-orange px-6 py-4 font-display text-sm font-bold uppercase tracking-wider text-cream transition-colors hover:bg-orange-dark md:mt-0"
+              >
+                Recevoir mon devis
+              </a>
             </div>
           </div>
         </section>
@@ -638,12 +637,13 @@ export default function NettoyageVitresThononPage() {
                 Zones d&apos;intervention
               </p>
               <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                Tout le Chablais et la rive sud du Léman
+                Maçon de proximité dans le Chablais et la rive sud du Léman
               </h2>
               <p className="mt-5 text-base text-brown/75 md:text-lg">
                 Notre équipe se déplace dans tout le bassin lémanique français,
-                de Genève à Saint-Gingolph. Frais de déplacement offerts
-                jusqu&apos;à 25 km autour de Thonon-les-Bains.
+                de la périphérie genevoise à Saint-Gingolph. Frais de
+                déplacement offerts jusqu&apos;à 25 km autour de
+                Thonon-les-Bains.
               </p>
             </div>
 
@@ -766,32 +766,34 @@ export default function NettoyageVitresThononPage() {
                   Nettoyage fin de chantier
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Remise à neuf après travaux, dépoussiérage profond, retrait
-                  des résidus de peinture sur les vitres.
+                  Remise à neuf après nos petits travaux maçonnés : retrait
+                  des poussières de ciment, lessivage, vitres et sols
+                  impeccables.
                 </p>
               </Link>
               <Link
-                href="/nettoyage-coproprietes-thonon"
+                href="/entretien-espaces-verts-thonon"
                 className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
               >
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
-                  Nettoyage copropriétés
+                  Entretien espaces verts
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Parties communes, halls vitrés, cages d&apos;escalier,
-                  contrats syndic adaptés au volume.
+                  Préparation du terrain avant pose de dalles ou construction
+                  d&apos;un muret, remise en état du jardin après chantier.
                 </p>
               </Link>
               <Link
-                href="/etat-des-lieux-sortant-thonon"
+                href="/debarras-thonon"
                 className="group block rounded-3xl bg-cream p-6 ring-1 ring-brown/10 transition-all hover:-translate-y-0.5 hover:shadow-[0_22px_60px_-20px_rgba(11,27,44,0.18)]"
               >
                 <h3 className="font-display text-base font-bold uppercase tracking-tight text-brown group-hover:text-orange">
-                  Nettoyage état des lieux sortant
+                  Débarras de gravats
                 </h3>
                 <p className="mt-2 text-sm text-brown/70">
-                  Préparation à la remise des clés, vitres incluses, pour
-                  récupérer 100 % de votre caution.
+                  Évacuation des gravats, dépôt en déchetterie agréée du
+                  Chablais. Service complémentaire à nos petits travaux de
+                  maçonnerie.
                 </p>
               </Link>
             </div>
@@ -808,12 +810,12 @@ export default function NettoyageVitresThononPage() {
                     Devis sous 24 h
                   </p>
                   <h2 className="mt-3 font-display text-3xl font-bold uppercase tracking-tight text-brown sm:text-4xl md:text-[44px] md:leading-[1.05]">
-                    Recevez votre devis nettoyage de vitres
+                    Recevez votre devis petite maçonnerie
                   </h2>
                   <p className="mt-5 text-base text-brown/75 md:text-lg">
-                    Décrivez-nous votre besoin (surface vitrée, type de
-                    bâtiment, fréquence souhaitée). Réponse chiffrée sous 24
-                    heures ouvrées.
+                    Décrivez-nous votre besoin : nature du support, dimensions
+                    approximatives, photos si possible. Réponse chiffrée sous
+                    24 heures ouvrées, garantie 2 ans sur la prestation.
                   </p>
                 </div>
 
@@ -848,8 +850,8 @@ export default function NettoyageVitresThononPage() {
               </aside>
 
               <ServiceQuoteForm
-                serviceLabel="Nettoyage de vitres"
-                source="vitres_thonon"
+                serviceLabel="Petite maçonnerie"
+                source="maconnerie_thonon"
               />
             </div>
           </div>

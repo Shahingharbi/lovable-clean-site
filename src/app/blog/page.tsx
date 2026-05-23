@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { BLOG_POSTS } from "@/data/blog";
 
 export const metadata: Metadata = {
-  title: "Blog et guides : conseils nettoyage et entretien | GH Services",
+  title: "Blog et guides : conseils nettoyage et entretien",
   description:
     "Conseils pratiques de pros : nettoyage de vitres, état des lieux sortant, entretien des espaces verts. Par GH Services, Thonon-les-Bains et Léman.",
   alternates: { canonical: "https://www.ghservices.fr/blog" },

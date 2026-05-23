@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Entreprise de nettoyage à Anthy-sur-Léman | GH Services",
+  title: "Entreprise de nettoyage à Anthy-sur-Léman",
   description:
     "Nettoyage et ménage à Anthy-sur-Léman, rive sud du Léman. Villas, résidences secondaires, copros. Équipe à 10 min depuis Thonon. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-anthy-sur-leman`,
   },
   openGraph: {
-    title: "Entreprise de nettoyage à Anthy-sur-Léman | GH Services",
+    title: "Entreprise de nettoyage à Anthy-sur-Léman",
     description:
       "Nettoyage et ménage à Anthy-sur-Léman, rive sud du Léman. Villas pieds dans l'eau, résidences secondaires, copros petites unités. Équipe à 10 minutes depuis Thonon. Devis sous 24 heures.",
     url: `${SITE_URL}/nettoyage-anthy-sur-leman`,

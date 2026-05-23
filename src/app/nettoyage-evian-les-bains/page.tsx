@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Entreprise de nettoyage à Évian-les-Bains | GH Services",
+  title: "Entreprise de nettoyage à Évian-les-Bains",
   description:
     "Société de nettoyage à Évian-les-Bains, rive sud du Léman. Maisons, thermes, copropriétés, fin de bail. Équipe locale, devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-evian-les-bains`,
   },
   openGraph: {
-    title: "Entreprise de nettoyage à Évian-les-Bains | GH Services",
+    title: "Entreprise de nettoyage à Évian-les-Bains",
     description:
       "Société de nettoyage à Évian-les-Bains, rive sud du Léman. Maisons, thermes, copropriétés, fin de bail. Équipe locale, devis 24 h.",
     url: `${SITE_URL}/nettoyage-evian-les-bains`,

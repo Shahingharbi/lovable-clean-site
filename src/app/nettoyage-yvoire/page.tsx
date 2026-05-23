@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -16,14 +16,14 @@ const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
   title:
-    "Nettoyage à Yvoire et entretien de chalets Léman | GH Services",
+    "Nettoyage à Yvoire et entretien de chalets Léman",
   description:
     "Nettoyage et entretien de résidences à Yvoire, ménage avant arrivée, fermeture saisonnière, conciergerie pour locations vacances. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-yvoire`,
   },
   openGraph: {
-    title: "Nettoyage à Yvoire et entretien de chalets Léman | GH Services",
+    title: "Nettoyage à Yvoire et entretien de chalets Léman",
     description:
       "Nettoyage et entretien de résidences à Yvoire, ménage avant arrivée, fermeture saisonnière, conciergerie pour locations vacances sur la rive sud du Léman.",
     url: `${SITE_URL}/nettoyage-yvoire`,

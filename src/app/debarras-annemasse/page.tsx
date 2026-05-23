@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Débarras maison appartement Annemasse | GH Services",
+  title: "Débarras maison appartement Annemasse",
   description:
     "Débarras à Annemasse, vide-maison, succession, Diogène. Récupération mobilier en bon état (Emmaüs). Tri éco. Devis sous 24 h.",
   alternates: {
     canonical: `${SITE_URL}/debarras-annemasse`,
   },
   openGraph: {
-    title: "Débarras maison appartement Annemasse | GH Services",
+    title: "Débarras maison appartement Annemasse",
     description:
       "Débarras à Annemasse, vide-maison, succession, Diogène. Récupération mobilier en bon état (Emmaüs). Tri éco. Devis sous 24 h.",
     url: `${SITE_URL}/debarras-annemasse`,

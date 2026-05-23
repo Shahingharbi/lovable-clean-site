@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -25,14 +25,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Entreprise de nettoyage à Douvaine et Bas-Chablais | GH Services",
+  title: "Entreprise de nettoyage à Douvaine et Bas-Chablais",
   description:
     "Société de nettoyage à Douvaine, frontière suisse. Particuliers, copros, frontaliers, commerces. Intervention rapide depuis Thonon. Devis 24 h.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-douvaine`,
   },
   openGraph: {
-    title: "Entreprise de nettoyage à Douvaine | GH Services",
+    title: "Entreprise de nettoyage à Douvaine",
     description:
       "Société de nettoyage à Douvaine, frontière suisse. Particuliers, copros, frontaliers, commerces. Intervention rapide depuis Thonon.",
     url: `${SITE_URL}/nettoyage-douvaine`,

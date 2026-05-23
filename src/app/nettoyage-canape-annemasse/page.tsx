@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/Header";
@@ -15,14 +15,14 @@ import {
 const SITE_URL = "https://www.ghservices.fr";
 
 export const metadata: Metadata = {
-  title: "Nettoyage de canapé et tapis à Annemasse | GH Services",
+  title: "Nettoyage de canapé et tapis à Annemasse",
   description:
     "Nettoyage canapé, tapis, matelas, moquette à Annemasse. Injection-extraction pro, détachage, anti-acariens. Intervention 48 h. Devis gratuit.",
   alternates: {
     canonical: `${SITE_URL}/nettoyage-canape-annemasse`,
   },
   openGraph: {
-    title: "Nettoyage de canapé et tapis à Annemasse | GH Services",
+    title: "Nettoyage de canapé et tapis à Annemasse",
     description:
       "Nettoyage canapé, tapis, matelas, moquette à Annemasse. Injection-extraction pro, détachage, anti-acariens. Intervention 48 h. Devis gratuit.",
     url: `${SITE_URL}/nettoyage-canape-annemasse`,
