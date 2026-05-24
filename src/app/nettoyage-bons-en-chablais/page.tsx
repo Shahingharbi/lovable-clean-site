@@ -305,22 +305,6 @@ export default function NettoyageBonsEnChablaisPage() {
       <Header />
 
       <main className="bg-cream">
-        {/* Breadcrumb visible */}
-        <nav
-          aria-label="Fil d'Ariane"
-          className="bg-cream pt-[120px] pb-2 md:pt-[140px]"
-        >
-          <div className="mx-auto max-w-[1280px] px-6 text-xs text-brown/60 lg:px-12">
-            <Link href="/" className="hover:text-orange">
-              Accueil
-            </Link>
-            <span className="mx-2 text-brown/30">/</span>
-            <span className="text-brown/75">
-              Entreprise de nettoyage à Bons-en-Chablais
-            </span>
-          </div>
-        </nav>
-
         {/* SECTION 1 - HERO V4 Geometric Split : gauche bg-cream avec titre, droite image pleine */}
         <section className="bg-cream">
           <div className="mx-auto grid max-w-[1440px] grid-cols-1 lg:grid-cols-2">

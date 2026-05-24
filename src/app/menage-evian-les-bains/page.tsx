@@ -256,22 +256,6 @@ export default function MenageEvianLesBainsPage() {
       <Header />
 
       <main className="bg-cream">
-        {/* Breadcrumb visible */}
-        <nav
-          aria-label="Fil d'Ariane"
-          className="bg-brown pt-[120px] pb-2 md:pt-[140px]"
-        >
-          <div className="mx-auto max-w-[1280px] px-6 text-xs text-cream/60 lg:px-12">
-            <Link href="/" className="hover:text-orange">
-              Accueil
-            </Link>
-            <span className="mx-2 text-cream/30">/</span>
-            <span className="text-cream/80">
-              Société de ménage à Évian-les-Bains
-            </span>
-          </div>
-        </nav>
-
         {/* SECTION 1 - HERO V1 BROWN */}
         <section className="relative isolate overflow-hidden bg-brown pb-20 pt-12 text-cream md:pb-28 md:pt-16">
           <div className="absolute inset-0 -z-10">

@@ -236,22 +236,6 @@ export default function NettoyageTextilesThononPage() {
       <Header />
 
       <main className="bg-cream">
-        {/* Breadcrumb visible (UX + SEO) */}
-        <nav
-          aria-label="Fil d'Ariane"
-          className="bg-cream pt-[120px] pb-2 md:pt-[140px]"
-        >
-          <div className="mx-auto max-w-[1280px] px-6 text-xs text-brown/60 lg:px-12">
-            <Link href="/" className="hover:text-orange">
-              Accueil
-            </Link>
-            <span className="mx-2 text-brown/30">/</span>
-            <span className="text-brown/75">
-              Nettoyage canapé, tapis et moquette à Thonon
-            </span>
-          </div>
-        </nav>
-
         {/* HERO */}
         <section className="relative isolate overflow-hidden bg-brown pb-20 pt-12 text-cream md:pb-28 md:pt-16">
           <div className="absolute inset-0 -z-10">
@@ -281,7 +265,8 @@ export default function NettoyageTextilesThononPage() {
 
             <h1 className="mt-6 max-w-3xl font-display text-[36px] leading-[1.05] font-bold tracking-tight uppercase text-cream sm:text-[48px] md:text-[64px]">
               Nettoyage de canapés, tapis et moquettes à{" "}
-              <span className="text-orange">Thonon-les-Bains</span>
+              <span className="text-orange">Thonon-les-Bains</span>{" "}
+              et en région lémanique
             </h1>
 
             <p className="mt-6 max-w-2xl text-base text-cream/95 sm:text-lg">

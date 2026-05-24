@@ -307,20 +307,6 @@ export default function NettoyageEvianLesBainsPage() {
       <Header />
 
       <main className="bg-cream">
-        {/* Breadcrumb visible */}
-        <nav
-          aria-label="Fil d'Ariane"
-          className="bg-cream-soft pt-[120px] pb-2 md:pt-[140px]"
-        >
-          <div className="mx-auto max-w-[1280px] px-6 text-xs text-brown/60 lg:px-12">
-            <Link href="/" className="hover:text-orange">
-              Accueil
-            </Link>
-            <span className="mx-2 text-brown/30">/</span>
-            <span className="text-brown/75">Nettoyage Évian-les-Bains</span>
-          </div>
-        </nav>
-
         {/* HERO V2 EDITORIAL CREAM */}
         <section className="relative bg-cream-soft pb-16 pt-8 md:pb-24 md:pt-12">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">

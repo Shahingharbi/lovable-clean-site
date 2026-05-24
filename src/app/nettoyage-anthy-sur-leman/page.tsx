@@ -321,19 +321,6 @@ export default function NettoyageAnthySurLemanPage() {
           </div>
 
           <div className="mx-auto w-full max-w-[1100px] px-6 pt-[160px] pb-24 text-center lg:px-12">
-            <nav
-              aria-label="Fil d'Ariane"
-              className="mb-12 text-xs text-cream/75"
-            >
-              <Link href="/" className="hover:text-cream">
-                Accueil
-              </Link>
-              <span className="mx-2 text-cream/40">/</span>
-              <span className="text-cream/95">
-                Entreprise de nettoyage à Anthy-sur-Léman
-              </span>
-            </nav>
-
             <p className="font-display text-[11px] font-bold uppercase tracking-[0.42em] text-cream/85">
               Rive sud du Léman, port d&apos;Anthy
             </p>

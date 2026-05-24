@@ -338,20 +338,6 @@ export default function NettoyageDouvainePage() {
       <Header />
 
       <main className="bg-cream">
-        {/* Breadcrumb */}
-        <nav
-          aria-label="Fil d'Ariane"
-          className="bg-cream pt-[120px] pb-2 md:pt-[140px]"
-        >
-          <div className="mx-auto max-w-[1280px] px-6 text-xs text-brown/60 lg:px-12">
-            <Link href="/" className="hover:text-orange">
-              Accueil
-            </Link>
-            <span className="mx-2 text-brown/30">/</span>
-            <span className="text-brown/75">Nettoyage à Douvaine</span>
-          </div>
-        </nav>
-
         {/* HERO V4 GEOMETRIC SPLIT */}
         <section className="bg-cream">
           <div className="mx-auto max-w-[1280px] px-6 lg:px-12">

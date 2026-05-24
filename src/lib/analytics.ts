@@ -13,8 +13,8 @@
 // Google Ads reste dormant, donc 0 risque de doubler les conversions.
 
 export const ADS_CONVERSION = {
-  // Click sur un numéro tel:+33… (en attente du 2e ID Ads "Clic téléphone")
-  phone: "AW-17969657087/REPLACE_WITH_PHONE_LABEL",
+  // Click sur un numéro tel:+33… (catégorie Contact, déclencheur Clic)
+  phone: "AW-17969657087/RDKgCP_M4rIcEP_pzPhC",
   // Formulaire de contact soumis avec succès. La conversion est tirée
   // sur /merci au chargement de la page, pas sur l'event submit ici
   // (cette constante reste utile si jamais on garde un trigger backup).

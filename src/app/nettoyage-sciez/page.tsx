@@ -286,17 +286,6 @@ export default function NettoyageSciezPage() {
           </div>
 
           <div className="mx-auto w-full max-w-[1280px] px-6 pt-[180px] pb-20 lg:px-12 lg:pb-28">
-            <nav
-              aria-label="Fil d'Ariane"
-              className="mb-10 text-xs text-cream/70"
-            >
-              <Link href="/" className="hover:text-cream">
-                Accueil
-              </Link>
-              <span className="mx-2 text-cream/40">/</span>
-              <span className="text-cream/90">Nettoyage à Sciez-sur-Léman</span>
-            </nav>
-
             <div className="mx-auto max-w-4xl text-center">
               <p className="font-display text-[11px] font-bold uppercase tracking-[0.42em] text-cream/85">
                 Rive sud du Léman
