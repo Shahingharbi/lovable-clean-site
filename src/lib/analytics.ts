@@ -13,10 +13,12 @@
 // Google Ads reste dormant, donc 0 risque de doubler les conversions.
 
 export const ADS_CONVERSION = {
-  // Click sur un numéro tel:+33…
+  // Click sur un numéro tel:+33… (en attente du 2e ID Ads "Clic téléphone")
   phone: "AW-17969657087/REPLACE_WITH_PHONE_LABEL",
-  // Formulaire de contact soumis avec succès (EmailJS status 200)
-  form: "AW-17969657087/REPLACE_WITH_FORM_LABEL",
+  // Formulaire de contact soumis avec succès. La conversion est tirée
+  // sur /merci au chargement de la page, pas sur l'event submit ici
+  // (cette constante reste utile si jamais on garde un trigger backup).
+  form: "AW-17969657087/HevKCL2W37IcEP_pzPhC",
 };
 
 // Valeur estimée d'un lead (euros). À ajuster selon ton CA moyen par lead.

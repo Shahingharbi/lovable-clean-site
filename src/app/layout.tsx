@@ -5,6 +5,7 @@ import Script from "next/script";
 import "./globals.css";
 import { FAQ_ITEMS } from "@/data/faq";
 import { AnalyticsListener } from "@/components/AnalyticsListener";
+import { ConsentBanner } from "@/components/ConsentBanner";
 
 const dmSans = DM_Sans({
   variable: "--font-sans",
@@ -271,6 +272,9 @@ export default function RootLayout({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
+        <Script id="consent-default" strategy="beforeInteractive">
+          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}window.gtag = gtag;gtag('consent', 'default', {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied', analytics_storage: 'denied', wait_for_update: 500});`}
+        </Script>
         <Script id="ms-clarity" strategy="afterInteractive">
           {`(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","w1p7l3nx72");`}
         </Script>
@@ -279,9 +283,10 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
         <Script id="google-gtag" strategy="afterInteractive">
-          {`window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}window.gtag = gtag;gtag('js', new Date());gtag('config', 'AW-17969657087');gtag('config', 'GT-T5JCZCZP');`}
+          {`gtag('js', new Date());gtag('config', 'AW-17969657087');gtag('config', 'GT-T5JCZCZP');`}
         </Script>
         <AnalyticsListener />
+        <ConsentBanner />
         {children}
       </body>
     </html>

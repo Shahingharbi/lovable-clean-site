@@ -11,7 +11,7 @@ export function ChatBubble() {
         <PhoneIcon className="h-4 w-4" />
       </span>
       <span className="hidden font-display text-sm font-bold uppercase tracking-tight md:inline">
-        Devis gratuit
+        Appeler
       </span>
     </a>
   );

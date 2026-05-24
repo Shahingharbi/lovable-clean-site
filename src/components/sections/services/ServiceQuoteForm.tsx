@@ -1,9 +1,8 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import emailjs from "@emailjs/browser";
-import { CheckIcon } from "@/components/icons";
-import { trackFormSubmit } from "@/lib/analytics";
 
 const EMAILJS = {
   service: "service_mr8ajr9",
@@ -18,7 +17,8 @@ type Props = {
   source: string;
 };
 
-export function ServiceQuoteForm({ serviceLabel, source }: Props) {
+export function ServiceQuoteForm({ serviceLabel }: Props) {
+  const router = useRouter();
   const [status, setStatus] = useState<Status>("idle");
   const [errorMsg, setErrorMsg] = useState("");
 
@@ -47,8 +47,8 @@ export function ServiceQuoteForm({ serviceLabel, source }: Props) {
       );
       if (result.status === 200) {
         setStatus("success");
-        trackFormSubmit(source);
         form.reset();
+        router.push("/merci");
       } else {
         throw new Error(`EmailJS status ${result.status}`);
       }
@@ -132,12 +132,6 @@ export function ServiceQuoteForm({ serviceLabel, source }: Props) {
         {status === "submitting" ? "Envoi en cours..." : "Recevoir mon devis"}
       </button>
 
-      {status === "success" && (
-        <p className="mt-4 inline-flex items-center gap-2 text-sm text-orange">
-          <CheckIcon className="h-4 w-4" />
-          Merci. Nous revenons vers vous sous 24 h.
-        </p>
-      )}
       {status === "error" && (
         <p className="mt-4 text-sm text-red-600">
           {errorMsg || "Une erreur est survenue."} Appelez-nous au 06 84 66 55
