@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import emailjs from "@emailjs/browser";
+import { storeFormUserData } from "@/lib/enhanced-conversions";
 
 const EMAILJS = {
   service: "service_mr8ajr9",
@@ -47,6 +48,7 @@ export function ServiceQuoteForm({ serviceLabel }: Props) {
       );
       if (result.status === 200) {
         setStatus("success");
+        storeFormUserData({ email: data.email, phone: data.phone });
         form.reset();
         router.push("/merci");
       } else {

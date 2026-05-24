@@ -9,6 +9,7 @@ import {
   PinIcon,
   ClockIcon,
 } from "@/components/icons";
+import { storeFormUserData } from "@/lib/enhanced-conversions";
 
 const SUBJECTS = [
   "Nettoyage de vitres",
@@ -57,6 +58,7 @@ export function ContactCTA() {
       );
       if (result.status === 200) {
         setStatus("success");
+        storeFormUserData({ email: data.email, phone: data.phone });
         form.reset();
         router.push("/merci");
       } else {

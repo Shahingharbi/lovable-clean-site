@@ -6,6 +6,11 @@ import Script from "next/script";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { PhoneIcon, CheckIcon } from "@/components/icons";
+import {
+  readAndClearFormUserData,
+  normalizeEmail,
+  normalizePhoneFr,
+} from "@/lib/enhanced-conversions";
 
 const PHONE_DISPLAY = "06 84 66 55 23";
 const PHONE_TEL = "+33684665523";
@@ -25,8 +30,21 @@ export default function MerciPage() {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ event: "form_submit_success", source: "contact_form" });
 
-    // Fire Google Ads conversion (will be no-op if consent is denied)
+    // Enhanced Conversions: fournir email + phone hachés par gtag avant
+    // l'event conversion pour améliorer le taux de matching post-cookies.
+    const userData = readAndClearFormUserData();
     if (typeof window.gtag === "function") {
+      if (userData) {
+        const email = normalizeEmail(userData.email);
+        const phone = normalizePhoneFr(userData.phone);
+        const payload: Record<string, string> = {};
+        if (email) payload.email = email;
+        if (phone) payload.phone_number = phone;
+        if (email || phone) {
+          window.gtag("set", "user_data", payload);
+        }
+      }
+      // Fire Google Ads conversion (will be no-op if consent is denied)
       window.gtag("event", "conversion", {
         send_to: ADS_FORM_SEND_TO,
       });
